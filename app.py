@@ -202,6 +202,16 @@ def upload():
     if request.method == 'POST' and request.files:
         f = form.txt_file.data
         filename = secure_filename(f.filename)
+
+        cur = mysql.connection.cursor()
+        check_filename = cur.execute("SELECT * FROM files WHERE filename = %s and username = %s", (filename.split('.')[0],session['username']))
+        if check_filename > 0:
+            cur.close()
+            flash('File Already Present', 'danger')
+            return redirect(url_for('dashboard'))
+        # Execute query
+        cur.close()
+
         print(filename)
         path = os.path.join(os.getcwd(), 'Storage')
         path = os.path.join(path, session['username'])
