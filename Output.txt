@@ -1,0 +1,7 @@
+This is our Cloud Computing Project.
+Our Aim is to Demonstrate Hybrid Cryptography for Secure Storage of Files on Cloud Systems.
+
+Team:
+Shreyas Talole D17B 67
+Gaurav Tirodkar D17B 70
+Saurav Ubarhande D17B 71
