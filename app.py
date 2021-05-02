@@ -163,6 +163,11 @@ def logout():
 @is_logged_in
 def dashboard():
     # Create cursor
+    try:
+        # os.remove("Original.txt")
+        os.remove("Output.txt")
+    except:
+        pass
     cur = mysql.connection.cursor()
 
     # Get articles
@@ -231,6 +236,7 @@ def upload():
 
         #Close connection
         cur.close()
+        os.remove(os.path.join(path, filename))
 
         return redirect(url_for('dashboard'))
 
