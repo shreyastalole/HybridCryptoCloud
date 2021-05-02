@@ -1,0 +1,1406 @@
+-- Logs begin at Sun 2021-05-02 12:30:57 UTC, end at Sun 2021-05-02 15:45:41 UTC. --
+May 02 15:30:08 hybridfile systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+May 02 15:30:08 hybridfile systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+May 02 15:30:10 hybridfile systemd[1]: Started MySQL Community Server.
+-- Subject: Unit mysql.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+May 02 15:30:14 hybridfile sshd[14843]: Invalid user user from 109.68.113.222 port 1027
+May 02 15:30:16 hybridfile sshd[14843]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:30:16 hybridfile sshd[14843]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:30:17 hybridfile sshd[14843]: Failed password for invalid user user from 109.68.113.222 port 1027 ssh2
+May 02 15:30:18 hybridfile sshd[14843]: Connection closed by invalid user user 109.68.113.222 port 1027 [preauth]
+May 02 15:30:25 hybridfile sshd[14849]: Invalid user user from 109.68.113.222 port 64534
+May 02 15:30:29 hybridfile sshd[14849]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:30:30 hybridfile sshd[14849]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:30:32 hybridfile sshd[14849]: Failed password for invalid user user from 109.68.113.222 port 64534 ssh2
+May 02 15:30:32 hybridfile sshd[14849]: Connection closed by invalid user user 109.68.113.222 port 64534 [preauth]
+May 02 15:30:40 hybridfile sshd[14853]: Invalid user user from 109.68.113.222 port 64934
+May 02 15:30:41 hybridfile sshd[14853]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:30:41 hybridfile sshd[14853]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:30:43 hybridfile sshd[14853]: Failed password for invalid user user from 109.68.113.222 port 64934 ssh2
+May 02 15:30:43 hybridfile sshd[14853]: Connection closed by invalid user user 109.68.113.222 port 64934 [preauth]
+May 02 15:30:53 hybridfile sshd[14855]: Invalid user user from 109.68.113.222 port 65197
+May 02 15:30:54 hybridfile sshd[14855]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:30:54 hybridfile sshd[14855]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:30:56 hybridfile sshd[14855]: Failed password for invalid user user from 109.68.113.222 port 65197 ssh2
+May 02 15:30:56 hybridfile sshd[14855]: Connection closed by invalid user user 109.68.113.222 port 65197 [preauth]
+May 02 15:31:04 hybridfile sshd[14859]: Invalid user user from 109.68.113.222 port 65490
+May 02 15:31:05 hybridfile sshd[14859]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:31:05 hybridfile sshd[14859]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:31:07 hybridfile sshd[14859]: Failed password for invalid user user from 109.68.113.222 port 65490 ssh2
+May 02 15:31:07 hybridfile sshd[14859]: Connection closed by invalid user user 109.68.113.222 port 65490 [preauth]
+May 02 15:31:16 hybridfile sshd[14861]: Invalid user user from 109.68.113.222 port 49397
+May 02 15:31:22 hybridfile sshd[14861]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:31:22 hybridfile sshd[14861]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:31:24 hybridfile sshd[14861]: Failed password for invalid user user from 109.68.113.222 port 49397 ssh2
+May 02 15:31:24 hybridfile sshd[14861]: Connection closed by invalid user user 109.68.113.222 port 49397 [preauth]
+May 02 15:31:34 hybridfile sshd[14863]: Invalid user support from 109.68.113.222 port 49774
+May 02 15:31:43 hybridfile sshd[14863]: Failed none for invalid user support from 109.68.113.222 port 49774 ssh2
+May 02 15:31:43 hybridfile sshd[14863]: Connection closed by invalid user support 109.68.113.222 port 49774 [preauth]
+May 02 15:31:50 hybridfile sshd[14867]: Invalid user support from 109.68.113.222 port 50278
+May 02 15:31:51 hybridfile sshd[14867]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:31:51 hybridfile sshd[14867]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:31:52 hybridfile python3[1001]: 2021-05-02T15:31:52.989380Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
+May 02 15:31:53 hybridfile sshd[14867]: Failed password for invalid user support from 109.68.113.222 port 50278 ssh2
+May 02 15:31:53 hybridfile sshd[14867]: Connection closed by invalid user support 109.68.113.222 port 50278 [preauth]
+May 02 15:32:01 hybridfile sshd[14871]: Invalid user support from 109.68.113.222 port 50559
+May 02 15:32:07 hybridfile sshd[14871]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:32:07 hybridfile sshd[14871]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:32:10 hybridfile sshd[14871]: Failed password for invalid user support from 109.68.113.222 port 50559 ssh2
+May 02 15:32:11 hybridfile sshd[14871]: Connection closed by invalid user support 109.68.113.222 port 50559 [preauth]
+May 02 15:32:12 hybridfile sshd[14869]: Invalid user MikroTik from 200.8.99.193 port 62937
+May 02 15:32:14 hybridfile sshd[14869]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:32:14 hybridfile sshd[14869]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=200.8.99.193[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mmysqld invoked oom-killer: gfp_mask=0x100dca(GFP_HIGHUSER_MOVABLE|__GFP_ZERO), order=0, oom_score_adj=0[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mCPU: 0 PID: 14845 Comm: mysqld Not tainted 5.4.0-1046-azure #48~18.04.1-Ubuntu[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mHardware name: Microsoft Corporation Virtual Machine/Virtual Machine, BIOS 090008  12/07/2018[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mCall Trace:[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m dump_stack+0x57/0x6d[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m dump_header+0x4f/0x200[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m oom_kill_process+0xe6/0x120[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m out_of_memory+0x109/0x510[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m __alloc_pages_slowpath+0xa9b/0xe50[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m __alloc_pages_nodemask+0x2cd/0x320[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m alloc_pages_vma+0x88/0x210[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m __handle_mm_fault+0x91c/0x1330[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m ? __switch_to_asm+0x40/0x70[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m handle_mm_fault+0xb7/0x200[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m __do_page_fault+0x29c/0x4c0[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m do_page_fault+0x35/0x110[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m page_fault+0x39/0x40[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mRIP: 0033:0x7f821fcd6e6d[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mCode: 01 00 00 48 83 fa 40 77 77 c5 fe 7f 44 17 e0 c5 fe 7f 07 c5 f8 77 c3 66 0f 1f 44 00 00 c5 f8 77 48 89 d1 40 0f b6 c6 48 89 fa <f3> aa 48 89 d0 c3 0f 1f 00 66 2e 0f 1f 84 00 00 00 00 00 48 39 d1[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mRSP: 002b:00007f82141cb848 EFLAGS: 00010206[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mRAX: 0000000000000000 RBX: 0000000001e43300 RCX: 00000000004a97c0[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mRDX: 00007f81e805a7c0 RSI: 0000000000000000 RDI: 00007f81e84c1000[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mRBP: 00007f82141cb880 R08: 00007f81e8024440 R09: 0000000000910871[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mR10: fffffffffffff000 R11: 000000000007a000 R12: 0000000000910000[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mR13: 0000000000000020 R14: 0000000001e43300 R15: 0000000000000020[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mMem-Info:[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mactive_anon:78593 inactive_anon:275 isolated_anon:0[0m
+                                   [0;1;39m active_file:56 inactive_file:61 isolated_file:0[0m
+                                   [0;1;39m unevictable:0 dirty:0 writeback:0 unstable:0[0m
+                                   [0;1;39m slab_reclaimable:5115 slab_unreclaimable:9597[0m
+                                   [0;1;39m mapped:240 shmem:381 pagetables:1993 bounce:0[0m
+                                   [0;1;39m free:973 free_pcp:30 free_cma:0[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mNode 0 active_anon:314372kB inactive_anon:1100kB active_file:224kB inactive_file:244kB unevictable:0kB isolated(anon):0kB isolated(file):0kB mapped:960kB dirty:0kB writeback:0kB shmem:1524kB shmem_thp: 0kB shmem_pmdmapped: 0kB anon_thp: 0kB writeback_tmp:0kB unstable:0kB all_unreclaimable? yes[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mNode 0 DMA free:1540kB min:100kB low:124kB high:148kB active_anon:13516kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:15992kB managed:15908kB mlocked:0kB kernel_stack:16kB pagetables:288kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mlowmem_reserve[]: 0 361 361 361 361[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mNode 0 DMA32 free:2352kB min:2380kB low:2972kB high:3564kB active_anon:300856kB inactive_anon:1100kB active_file:224kB inactive_file:244kB unevictable:0kB writepending:0kB present:507840kB managed:407824kB mlocked:0kB kernel_stack:2656kB pagetables:7684kB bounce:0kB free_pcp:120kB local_pcp:120kB free_cma:0kB[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mlowmem_reserve[]: 0 0 0 0 0[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mNode 0 DMA: 1*4kB (U) 12*8kB (U) 8*16kB (UE) 3*32kB (UM) 1*64kB (M) 5*128kB (M) 0*256kB 1*512kB (U) 0*1024kB 0*2048kB 0*4096kB = 1540kB[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mNode 0 DMA32: 8*4kB (M) 106*8kB (UME) 90*16kB (UE) 1*32kB (U) 0*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 2352kB[0m
+May 02 15:32:16 hybridfile kernel: Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+May 02 15:32:16 hybridfile kernel: Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m501 total pagecache pages[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m0 pages in swap cache[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mSwap cache stats: add 0, delete 0, find 0/0[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mFree swap  = 0kB[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mTotal swap = 0kB[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m130958 pages RAM[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m0 pages HighMem/MovableOnly[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m25025 pages reserved[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m0 pages cma reserved[0m
+May 02 15:32:16 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m0 pages hwpoisoned[0m
+May 02 15:32:16 hybridfile kernel: Tasks state (memory values in pages):
+May 02 15:32:16 hybridfile kernel: [  pid  ]   uid  tgid total_vm      rss pgtables_bytes swapents oom_score_adj name
+May 02 15:32:16 hybridfile kernel: [    454]     0   454    23713      207   176128        0             0 systemd-journal
+May 02 15:32:16 hybridfile kernel: [    463]     0   463    24428       43    94208        0             0 lvmetad
+May 02 15:32:16 hybridfile kernel: [    465]     0   465    10890      252   118784        0         -1000 systemd-udevd
+May 02 15:32:16 hybridfile kernel: [    510]     0   510     3098      270    69632        0             0 hv_kvp_daemon
+May 02 15:32:16 hybridfile kernel: [    663] 62583   663    35446      125   184320        0             0 systemd-timesyn
+May 02 15:32:16 hybridfile kernel: [    786]   100   786    19978      161   180224        0             0 systemd-network
+May 02 15:32:16 hybridfile kernel: [    797]   101   797    17653      150   180224        0             0 systemd-resolve
+May 02 15:32:16 hybridfile kernel: [   1001]     0  1001    20058     3247   200704        0             0 python3
+May 02 15:32:16 hybridfile kernel: [   1002]     0  1002    17610      163   172032        0             0 systemd-logind
+May 02 15:32:16 hybridfile kernel: [   1010]     0  1010     7084       51    98304        0             0 atd
+May 02 15:32:16 hybridfile kernel: [   1011]     0  1011    40270       33    81920        0             0 lxcfs
+May 02 15:32:16 hybridfile kernel: [   1018]   103  1018    12541      182   139264        0          -900 dbus-daemon
+May 02 15:32:16 hybridfile kernel: [   1027]     0  1027    72000      223   196608        0             0 accounts-daemon
+May 02 15:32:16 hybridfile kernel: [   1033]     0  1033    42708     1946   233472        0             0 networkd-dispat
+May 02 15:32:16 hybridfile kernel: [   1039]     0  1039     7938       74   106496        0             0 cron
+May 02 15:32:16 hybridfile kernel: [   1046]   102  1046    66817      332   167936        0             0 rsyslogd
+May 02 15:32:16 hybridfile kernel: [   1047]     0  1047    46920     1975   258048        0             0 unattended-upgr
+May 02 15:32:16 hybridfile kernel: [   1064]     0  1064     4104       36    73728        0             0 agetty
+May 02 15:32:16 hybridfile kernel: [   1069]     0  1069     3723       33    73728        0             0 agetty
+May 02 15:32:16 hybridfile kernel: [   1079]     0  1079    72221      231   204800        0             0 polkitd
+May 02 15:32:16 hybridfile kernel: [   1256]     0  1256     1128       22    53248        0             0 none
+May 02 15:32:16 hybridfile kernel: [   1320]     0  1320    96637     4208   258048        0             0 python3
+May 02 15:32:16 hybridfile kernel: [   1517]     0  1517    18076      187   180224        0         -1000 sshd
+May 02 15:32:16 hybridfile kernel: [   1612]     0  1612    26423      245   253952        0             0 sshd
+May 02 15:32:16 hybridfile kernel: [   1621]  1000  1621    19132      238   184320        0             0 systemd
+May 02 15:32:16 hybridfile kernel: [   1622]  1000  1622    27977      642   249856        0             0 (sd-pam)
+May 02 15:32:16 hybridfile kernel: [   1749]  1000  1749    27030      274   258048        0             0 sshd
+May 02 15:32:16 hybridfile kernel: [   1750]  1000  1750     3266       75    73728        0             0 sftp-server
+May 02 15:32:16 hybridfile kernel: [   1782]     0  1782    26423      248   253952        0             0 sshd
+May 02 15:32:16 hybridfile kernel: [   1853]  1000  1853    26997      260   258048        0             0 sshd
+May 02 15:32:16 hybridfile kernel: [   1854]  1000  1854     5814      439    86016        0             0 bash
+May 02 15:32:16 hybridfile kernel: [  10653]     0 10653    26423      246   249856        0             0 sshd
+May 02 15:32:16 hybridfile kernel: [  10725]  1000 10725    27030      264   249856        0             0 sshd
+May 02 15:32:16 hybridfile kernel: [  10726]  1000 10726     3266       54    73728        0             0 sftp-server
+May 02 15:32:16 hybridfile kernel: [  12249]     0 12249    35281      380   237568        0             0 nginx
+May 02 15:32:16 hybridfile kernel: [  12252]    33 12252    35956      477   245760        0             0 nginx
+May 02 15:32:16 hybridfile kernel: [  12261]  1000 12261    29100     5202   270336        0             0 uwsgi
+May 02 15:32:16 hybridfile kernel: [  12282]  1000 12282    31246     6215   282624        0             0 uwsgi
+May 02 15:32:16 hybridfile kernel: [  12283]  1000 12283    29350     5229   266240        0             0 uwsgi
+May 02 15:32:16 hybridfile kernel: [  12284]  1000 12284    29374     5315   270336        0             0 uwsgi
+May 02 15:32:16 hybridfile kernel: [  12285]  1000 12285   122336     6172   323584        0             0 uwsgi
+May 02 15:32:16 hybridfile kernel: [  12286]  1000 12286    29346     5267   266240        0             0 uwsgi
+May 02 15:32:16 hybridfile kernel: [  14809]   111 14809   291107    42069   688128        0             0 mysqld
+May 02 15:32:16 hybridfile kernel: [  14848]  1000 14848    10222      307   110592        0             0 mysql
+May 02 15:32:16 hybridfile kernel: [  14869]     0 14869    27000      251   253952        0             0 sshd
+May 02 15:32:16 hybridfile kernel: [  14870]   109 14870    18076      202   176128        0             0 sshd
+May 02 15:32:16 hybridfile kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/system.slice/mysql.service,task=mysqld,pid=14809,uid=111
+May 02 15:32:16 hybridfile kernel: [0;1;31m[0;1;39m[0;1;31mOut of memory: Killed process 14809 (mysqld) total-vm:1164428kB, anon-rss:168276kB, file-rss:0kB, shmem-rss:0kB, UID:111 pgtables:672kB oom_score_adj:0[0m
+May 02 15:32:16 hybridfile kernel: oom_reaper: reaped process 14809 (mysqld), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+May 02 15:32:16 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Main process exited, code=killed, status=9/KILL[0m
+May 02 15:32:16 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'signal'.[0m
+May 02 15:32:16 hybridfile systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+May 02 15:32:16 hybridfile systemd[1]: mysql.service: Scheduled restart job, restart counter is at 10.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+May 02 15:32:16 hybridfile systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+May 02 15:32:16 hybridfile systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+May 02 15:32:16 hybridfile sshd[14869]: Failed password for invalid user MikroTik from 200.8.99.193 port 62937 ssh2
+May 02 15:32:17 hybridfile sshd[14869]: Connection closed by invalid user MikroTik 200.8.99.193 port 62937 [preauth]
+May 02 15:32:17 hybridfile sshd[14910]: Invalid user support from 109.68.113.222 port 50964
+May 02 15:32:17 hybridfile sshd[14910]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:32:17 hybridfile sshd[14910]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:32:19 hybridfile sshd[14910]: Failed password for invalid user support from 109.68.113.222 port 50964 ssh2
+May 02 15:32:20 hybridfile sshd[14910]: Connection closed by invalid user support 109.68.113.222 port 50964 [preauth]
+May 02 15:32:20 hybridfile systemd[1]: Started MySQL Community Server.
+-- Subject: Unit mysql.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+May 02 15:32:27 hybridfile sshd[14944]: Invalid user support from 109.68.113.222 port 51186
+May 02 15:32:28 hybridfile sshd[14944]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:32:28 hybridfile sshd[14944]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:32:30 hybridfile sshd[14944]: Failed password for invalid user support from 109.68.113.222 port 51186 ssh2
+May 02 15:32:30 hybridfile sshd[14944]: Connection closed by invalid user support 109.68.113.222 port 51186 [preauth]
+May 02 15:32:40 hybridfile sshd[14947]: Invalid user support from 109.68.113.222 port 51461
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mmysqld invoked oom-killer: gfp_mask=0x100cca(GFP_HIGHUSER_MOVABLE), order=0, oom_score_adj=0[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mCPU: 0 PID: 14949 Comm: mysqld Not tainted 5.4.0-1046-azure #48~18.04.1-Ubuntu[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mHardware name: Microsoft Corporation Virtual Machine/Virtual Machine, BIOS 090008  12/07/2018[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mCall Trace:[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m dump_stack+0x57/0x6d[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m dump_header+0x4f/0x200[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m oom_kill_process+0xe6/0x120[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m out_of_memory+0x109/0x510[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m __alloc_pages_slowpath+0xa9b/0xe50[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m __alloc_pages_nodemask+0x2cd/0x320[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m alloc_pages_current+0x6a/0xe0[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m __page_cache_alloc+0x6a/0xa0[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m pagecache_get_page+0xab/0x2c0[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m filemap_fault+0x669/0xb60[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m ? xas_load+0xc/0x80[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m ? xas_find+0x16f/0x1b0[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m ? filemap_map_pages+0x17d/0x3b0[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m ext4_filemap_fault+0x31/0x50[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m __do_fault+0x57/0x110[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m __handle_mm_fault+0xdf1/0x1330[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m ? __switch_to_asm+0x40/0x70[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m handle_mm_fault+0xb7/0x200[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m __do_page_fault+0x29c/0x4c0[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m do_page_fault+0x35/0x110[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m page_fault+0x39/0x40[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mRIP: 0033:0x7f62ac3b8e6d[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mCode: Bad RIP value.[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mRSP: 002b:00007f62a00ad9e8 EFLAGS: 00010206[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mRAX: 0000000000000000 RBX: 0000000001e43300 RCX: 0000000000640900[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mRDX: 00007f627802e900 RSI: 0000000000000000 RDI: 00007f62782fe000[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mRBP: 00007f62a00ada20 R08: 0000000002ae3dd0 R09: 0000000000910741[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mR10: fffffffffffff000 R11: 0000000000047000 R12: 0000000000910000[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mR13: 0000000000000020 R14: 0000000001e43300 R15: 0000000000000020[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mMem-Info:[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mactive_anon:78297 inactive_anon:275 isolated_anon:0[0m
+                                   [0;1;39m active_file:113 inactive_file:181 isolated_file:0[0m
+                                   [0;1;39m unevictable:0 dirty:0 writeback:0 unstable:0[0m
+                                   [0;1;39m slab_reclaimable:5154 slab_unreclaimable:9597[0m
+                                   [0;1;39m mapped:283 shmem:381 pagetables:2058 bounce:0[0m
+                                   [0;1;39m free:973 free_pcp:30 free_cma:0[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mNode 0 active_anon:313188kB inactive_anon:1100kB active_file:452kB inactive_file:724kB unevictable:0kB isolated(anon):0kB isolated(file):0kB mapped:1132kB dirty:0kB writeback:0kB shmem:1524kB shmem_thp: 0kB shmem_pmdmapped: 0kB anon_thp: 0kB writeback_tmp:0kB unstable:0kB all_unreclaimable? yes[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mNode 0 DMA free:1536kB min:100kB low:124kB high:148kB active_anon:13600kB inactive_anon:0kB active_file:8kB inactive_file:0kB unevictable:0kB writepending:0kB present:15992kB managed:15908kB mlocked:0kB kernel_stack:16kB pagetables:264kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mlowmem_reserve[]: 0 361 361 361 361[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mNode 0 DMA32 free:2356kB min:2380kB low:2972kB high:3564kB active_anon:299572kB inactive_anon:1100kB active_file:452kB inactive_file:724kB unevictable:0kB writepending:0kB present:507840kB managed:407824kB mlocked:0kB kernel_stack:2688kB pagetables:7968kB bounce:0kB free_pcp:120kB local_pcp:120kB free_cma:0kB[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mlowmem_reserve[]: 0 0 0 0 0[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mNode 0 DMA: 8*4kB (UM) 12*8kB (U) 8*16kB (UE) 4*32kB (UM) 0*64kB 5*128kB (M) 0*256kB 1*512kB (U) 0*1024kB 0*2048kB 0*4096kB = 1536kB[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mNode 0 DMA32: 3*4kB (UM) 109*8kB (UM) 92*16kB (UE) 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 2356kB[0m
+May 02 15:32:50 hybridfile kernel: Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+May 02 15:32:50 hybridfile kernel: Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m672 total pagecache pages[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m0 pages in swap cache[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mSwap cache stats: add 0, delete 0, find 0/0[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mFree swap  = 0kB[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mTotal swap = 0kB[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m130958 pages RAM[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m0 pages HighMem/MovableOnly[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m25025 pages reserved[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m0 pages cma reserved[0m
+May 02 15:32:50 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m0 pages hwpoisoned[0m
+May 02 15:32:50 hybridfile kernel: Tasks state (memory values in pages):
+May 02 15:32:50 hybridfile kernel: [  pid  ]   uid  tgid total_vm      rss pgtables_bytes swapents oom_score_adj name
+May 02 15:32:50 hybridfile kernel: [    454]     0   454    23713      208   176128        0             0 systemd-journal
+May 02 15:32:50 hybridfile kernel: [    463]     0   463    24428       43    94208        0             0 lvmetad
+May 02 15:32:50 hybridfile kernel: [    465]     0   465    10890      252   118784        0         -1000 systemd-udevd
+May 02 15:32:50 hybridfile kernel: [    510]     0   510     3098      270    69632        0             0 hv_kvp_daemon
+May 02 15:32:50 hybridfile kernel: [    663] 62583   663    35446      125   184320        0             0 systemd-timesyn
+May 02 15:32:50 hybridfile kernel: [    786]   100   786    19978      161   180224        0             0 systemd-network
+May 02 15:32:50 hybridfile kernel: [    797]   101   797    17653      150   180224        0             0 systemd-resolve
+May 02 15:32:50 hybridfile kernel: [   1001]     0  1001    20058     3247   200704        0             0 python3
+May 02 15:32:50 hybridfile kernel: [   1002]     0  1002    17610      163   172032        0             0 systemd-logind
+May 02 15:32:50 hybridfile kernel: [   1010]     0  1010     7084       51    98304        0             0 atd
+May 02 15:32:50 hybridfile kernel: [   1011]     0  1011    40270       33    81920        0             0 lxcfs
+May 02 15:32:50 hybridfile kernel: [   1018]   103  1018    12541      182   139264        0          -900 dbus-daemon
+May 02 15:32:50 hybridfile kernel: [   1027]     0  1027    72000      223   196608        0             0 accounts-daemon
+May 02 15:32:50 hybridfile kernel: [   1033]     0  1033    42708     1946   233472        0             0 networkd-dispat
+May 02 15:32:50 hybridfile kernel: [   1039]     0  1039     7938       74   106496        0             0 cron
+May 02 15:32:50 hybridfile kernel: [   1046]   102  1046    66817      332   167936        0             0 rsyslogd
+May 02 15:32:50 hybridfile kernel: [   1047]     0  1047    46920     1975   258048        0             0 unattended-upgr
+May 02 15:32:50 hybridfile kernel: [   1064]     0  1064     4104       36    73728        0             0 agetty
+May 02 15:32:50 hybridfile kernel: [   1069]     0  1069     3723       33    73728        0             0 agetty
+May 02 15:32:50 hybridfile kernel: [   1079]     0  1079    72221      231   204800        0             0 polkitd
+May 02 15:32:50 hybridfile kernel: [   1256]     0  1256     1128       22    53248        0             0 none
+May 02 15:32:50 hybridfile kernel: [   1320]     0  1320    96637     4208   258048        0             0 python3
+May 02 15:32:50 hybridfile kernel: [   1517]     0  1517    18076      187   180224        0         -1000 sshd
+May 02 15:32:50 hybridfile kernel: [   1612]     0  1612    26423      245   253952        0             0 sshd
+May 02 15:32:50 hybridfile kernel: [   1621]  1000  1621    19132      238   184320        0             0 systemd
+May 02 15:32:50 hybridfile kernel: [   1622]  1000  1622    27977      642   249856        0             0 (sd-pam)
+May 02 15:32:50 hybridfile kernel: [   1749]  1000  1749    27030      274   258048        0             0 sshd
+May 02 15:32:50 hybridfile kernel: [   1750]  1000  1750     3266       75    73728        0             0 sftp-server
+May 02 15:32:50 hybridfile kernel: [   1782]     0  1782    26423      248   253952        0             0 sshd
+May 02 15:32:50 hybridfile kernel: [   1853]  1000  1853    26997      260   258048        0             0 sshd
+May 02 15:32:50 hybridfile kernel: [   1854]  1000  1854     5814      439    86016        0             0 bash
+May 02 15:32:50 hybridfile kernel: [  10653]     0 10653    26423      246   249856        0             0 sshd
+May 02 15:32:50 hybridfile kernel: [  10725]  1000 10725    27030      264   249856        0             0 sshd
+May 02 15:32:50 hybridfile kernel: [  10726]  1000 10726     3266       54    73728        0             0 sftp-server
+May 02 15:32:50 hybridfile kernel: [  12249]     0 12249    35281      380   237568        0             0 nginx
+May 02 15:32:50 hybridfile kernel: [  12252]    33 12252    35956      477   245760        0             0 nginx
+May 02 15:32:50 hybridfile kernel: [  12261]  1000 12261    29100     5202   270336        0             0 uwsgi
+May 02 15:32:50 hybridfile kernel: [  12282]  1000 12282    31246     6215   282624        0             0 uwsgi
+May 02 15:32:50 hybridfile kernel: [  12283]  1000 12283    29350     5229   266240        0             0 uwsgi
+May 02 15:32:50 hybridfile kernel: [  12284]  1000 12284    29374     5315   270336        0             0 uwsgi
+May 02 15:32:50 hybridfile kernel: [  12285]  1000 12285   122336     6172   323584        0             0 uwsgi
+May 02 15:32:50 hybridfile kernel: [  12286]  1000 12286    29346     5267   266240        0             0 uwsgi
+May 02 15:32:50 hybridfile kernel: [  14848]  1000 14848    10222      309   110592        0             0 mysql
+May 02 15:32:50 hybridfile kernel: [  14909]   111 14909   291107    41580   688128        0             0 mysqld
+May 02 15:32:50 hybridfile kernel: [  14943]     0 14943    18076      186   180224        0             0 sshd
+May 02 15:32:50 hybridfile kernel: [  14946]   109 14946    18076      189   176128        0             0 sshd
+May 02 15:32:50 hybridfile kernel: [  14947]     0 14947    22300      232   212992        0             0 sshd
+May 02 15:32:50 hybridfile kernel: [  14948]   109 14948    18076      202   172032        0             0 sshd
+May 02 15:32:50 hybridfile kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/system.slice/mysql.service,task=mysqld,pid=14909,uid=111
+May 02 15:32:50 hybridfile kernel: [0;1;31m[0;1;39m[0;1;31mOut of memory: Killed process 14909 (mysqld) total-vm:1164428kB, anon-rss:166320kB, file-rss:0kB, shmem-rss:0kB, UID:111 pgtables:672kB oom_score_adj:0[0m
+May 02 15:32:50 hybridfile kernel: oom_reaper: reaped process 14909 (mysqld), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+May 02 15:32:50 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Main process exited, code=killed, status=9/KILL[0m
+May 02 15:32:50 hybridfile sshd[14947]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:32:50 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'signal'.[0m
+May 02 15:32:50 hybridfile sshd[14947]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:32:50 hybridfile systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+May 02 15:32:50 hybridfile systemd[1]: mysql.service: Scheduled restart job, restart counter is at 11.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+May 02 15:32:50 hybridfile systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+May 02 15:32:50 hybridfile systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+May 02 15:32:53 hybridfile sshd[14947]: Failed password for invalid user support from 109.68.113.222 port 51461 ssh2
+May 02 15:32:53 hybridfile sshd[14947]: Connection closed by invalid user support 109.68.113.222 port 51461 [preauth]
+May 02 15:32:55 hybridfile systemd[1]: Started MySQL Community Server.
+-- Subject: Unit mysql.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+May 02 15:32:58 hybridfile python3[1001]: 2021-05-02T15:32:58.825762Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.2.54.2 is running as the goal state agent [DEBUG HeartbeatCounter: 6;HeartbeatId: 2729926F-DB20-4D8F-ADFE-FE6600213865;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 02 15:33:04 hybridfile sshd[14943]: Invalid user MikroTik from 200.8.99.193 port 56520
+May 02 15:33:11 hybridfile sshd[15033]: Invalid user support from 109.68.113.222 port 52215
+May 02 15:33:15 hybridfile sshd[15033]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:33:15 hybridfile sshd[15033]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:33:18 hybridfile sshd[15033]: Failed password for invalid user support from 109.68.113.222 port 52215 ssh2
+May 02 15:33:18 hybridfile sshd[15033]: Connection closed by invalid user support 109.68.113.222 port 52215 [preauth]
+May 02 15:33:26 hybridfile sshd[15037]: Invalid user support from 109.68.113.222 port 52610
+May 02 15:33:34 hybridfile sshd[15037]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:33:35 hybridfile sshd[15037]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:33:37 hybridfile sshd[15037]: Failed password for invalid user support from 109.68.113.222 port 52610 ssh2
+May 02 15:33:38 hybridfile sshd[15037]: Connection closed by invalid user support 109.68.113.222 port 52610 [preauth]
+May 02 15:33:45 hybridfile sshd[15039]: Invalid user support from 109.68.113.222 port 53076
+May 02 15:33:54 hybridfile sshd[15039]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:33:54 hybridfile sshd[15039]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:33:57 hybridfile sshd[15039]: Failed password for invalid user support from 109.68.113.222 port 53076 ssh2
+May 02 15:33:57 hybridfile sshd[15039]: Connection closed by invalid user support 109.68.113.222 port 53076 [preauth]
+May 02 15:33:58 hybridfile sshd[14943]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:33:58 hybridfile sshd[14943]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=200.8.99.193[0m
+May 02 15:34:00 hybridfile sshd[14943]: Failed password for invalid user MikroTik from 200.8.99.193 port 56520 ssh2
+May 02 15:34:04 hybridfile sshd[15043]: Invalid user support from 109.68.113.222 port 53535
+May 02 15:34:14 hybridfile sshd[15043]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:34:15 hybridfile sshd[15043]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:34:18 hybridfile sshd[15043]: Failed password for invalid user support from 109.68.113.222 port 53535 ssh2
+May 02 15:34:19 hybridfile sshd[15043]: Connection closed by invalid user support 109.68.113.222 port 53535 [preauth]
+May 02 15:34:21 hybridfile sudo[15046]: [0;1;39m[0;1;31m[0;1;39m shreyas : TTY=pts/0 ; PWD=/home/shreyas/myproject/HybridCryptoCloud ; USER=root ; COMMAND=/usr/sbin/service mysql restart[0m
+May 02 15:34:22 hybridfile sudo[15046]: pam_unix(sudo:session): session opened for user root by shreyas(uid=0)
+May 02 15:34:27 hybridfile systemd[1]: Stopping MySQL Community Server...
+-- Subject: Unit mysql.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun shutting down.
+May 02 15:34:34 hybridfile sshd[15051]: Invalid user support from 109.68.113.222 port 54027
+May 02 15:34:34 hybridfile sshd[15051]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:34:34 hybridfile sshd[15051]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:34:34 hybridfile systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+May 02 15:34:34 hybridfile systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+May 02 15:34:37 hybridfile sshd[15051]: Failed password for invalid user support from 109.68.113.222 port 54027 ssh2
+May 02 15:34:37 hybridfile sshd[15051]: Connection closed by invalid user support 109.68.113.222 port 54027 [preauth]
+May 02 15:34:39 hybridfile systemd[1]: Started MySQL Community Server.
+-- Subject: Unit mysql.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+May 02 15:34:40 hybridfile sudo[15046]: pam_unix(sudo:session): session closed for user root
+May 02 15:34:44 hybridfile sshd[15123]: Invalid user support from 109.68.113.222 port 54443
+May 02 15:34:45 hybridfile sshd[15123]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:34:45 hybridfile sshd[15123]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:34:47 hybridfile sshd[15123]: Failed password for invalid user support from 109.68.113.222 port 54443 ssh2
+May 02 15:34:48 hybridfile sshd[15123]: Connection closed by invalid user support 109.68.113.222 port 54443 [preauth]
+May 02 15:35:04 hybridfile sshd[15128]: Invalid user support from 109.68.113.222 port 54884
+May 02 15:35:04 hybridfile sshd[15128]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:35:04 hybridfile sshd[15128]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:35:07 hybridfile sshd[15128]: Failed password for invalid user support from 109.68.113.222 port 54884 ssh2
+May 02 15:35:07 hybridfile sshd[15128]: Connection closed by invalid user support 109.68.113.222 port 54884 [preauth]
+May 02 15:35:10 hybridfile sshd[15045]: Invalid user MikroTik from 200.8.99.193 port 49918
+May 02 15:35:12 hybridfile sshd[15045]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:35:12 hybridfile sshd[15045]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=200.8.99.193[0m
+May 02 15:35:14 hybridfile sshd[15045]: Failed password for invalid user MikroTik from 200.8.99.193 port 49918 ssh2
+May 02 15:35:14 hybridfile sshd[15133]: Invalid user support from 109.68.113.222 port 55138
+May 02 15:35:15 hybridfile sshd[15133]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:35:15 hybridfile sshd[15133]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:35:17 hybridfile sshd[15045]: Connection closed by invalid user MikroTik 200.8.99.193 port 49918 [preauth]
+May 02 15:35:17 hybridfile sshd[15133]: Failed password for invalid user support from 109.68.113.222 port 55138 ssh2
+May 02 15:35:18 hybridfile sshd[15133]: Connection closed by invalid user support 109.68.113.222 port 55138 [preauth]
+May 02 15:35:25 hybridfile sshd[15138]: Invalid user support from 109.68.113.222 port 55388
+May 02 15:35:32 hybridfile sshd[15138]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:35:32 hybridfile sshd[15138]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:35:34 hybridfile sshd[15138]: Failed password for invalid user support from 109.68.113.222 port 55388 ssh2
+May 02 15:35:35 hybridfile sshd[15138]: Connection closed by invalid user support 109.68.113.222 port 55388 [preauth]
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39msystemd-udevd invoked oom-killer: gfp_mask=0x100cca(GFP_HIGHUSER_MOVABLE), order=0, oom_score_adj=-1000[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mCPU: 0 PID: 465 Comm: systemd-udevd Not tainted 5.4.0-1046-azure #48~18.04.1-Ubuntu[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mHardware name: Microsoft Corporation Virtual Machine/Virtual Machine, BIOS 090008  12/07/2018[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mCall Trace:[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m dump_stack+0x57/0x6d[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m dump_header+0x4f/0x200[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m oom_kill_process+0xe6/0x120[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m out_of_memory+0x109/0x510[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m __alloc_pages_slowpath+0xa9b/0xe50[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m __alloc_pages_nodemask+0x2cd/0x320[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m alloc_pages_current+0x6a/0xe0[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m __page_cache_alloc+0x6a/0xa0[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m pagecache_get_page+0xab/0x2c0[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m filemap_fault+0x669/0xb60[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m ? __switch_to_asm+0x40/0x70[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m ? __switch_to_asm+0x34/0x70[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m ? __switch_to_asm+0x40/0x70[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m ? __switch_to_asm+0x34/0x70[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m ? __switch_to_asm+0x40/0x70[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m ? sock_poll+0x79/0xb0[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m ? xas_load+0xc/0x80[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m ? xas_find+0x16f/0x1b0[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m ? filemap_map_pages+0x17d/0x3b0[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m ext4_filemap_fault+0x31/0x50[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m __do_fault+0x57/0x110[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m __handle_mm_fault+0xdf1/0x1330[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m ? ep_scan_ready_list.constprop.20+0x1ee/0x210[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m handle_mm_fault+0xb7/0x200[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m __do_page_fault+0x29c/0x4c0[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m do_page_fault+0x35/0x110[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m page_fault+0x39/0x40[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mRIP: 0033:0x7f091009fa07[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mCode: Bad RIP value.[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mRSP: 002b:00007fff36674308 EFLAGS: 00010246[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mRAX: 0000000000000001 RBX: 0000557b1c7f6190 RCX: 00007f091009fa07[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mRDX: 0000000000000009 RSI: 00007fff36674310 RDI: 000000000000000a[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mRBP: 00007fff36674480 R08: 00007fff36674310 R09: fffffffffffffffe[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mR10: 00000000ffffffff R11: 0000000000000246 R12: 00007fff36674310[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mR13: ffffffffffffffff R14: 0000557b1b117edd R15: 0000000000000001[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mMem-Info:[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mactive_anon:78556 inactive_anon:275 isolated_anon:0[0m
+                                   [0;1;39m active_file:65 inactive_file:92 isolated_file:0[0m
+                                   [0;1;39m unevictable:0 dirty:1 writeback:0 unstable:0[0m
+                                   [0;1;39m slab_reclaimable:5133 slab_unreclaimable:9616[0m
+                                   [0;1;39m mapped:250 shmem:381 pagetables:1978 bounce:0[0m
+                                   [0;1;39m free:953 free_pcp:30 free_cma:0[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mNode 0 active_anon:314224kB inactive_anon:1100kB active_file:260kB inactive_file:368kB unevictable:0kB isolated(anon):0kB isolated(file):0kB mapped:1000kB dirty:4kB writeback:0kB shmem:1524kB shmem_thp: 0kB shmem_pmdmapped: 0kB anon_thp: 0kB writeback_tmp:0kB unstable:0kB all_unreclaimable? yes[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mNode 0 DMA free:1536kB min:100kB low:124kB high:148kB active_anon:13572kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:15992kB managed:15908kB mlocked:0kB kernel_stack:16kB pagetables:268kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mlowmem_reserve[]: 0 361 361 361 361[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mNode 0 DMA32 free:2276kB min:2380kB low:2972kB high:3564kB active_anon:300636kB inactive_anon:1100kB active_file:260kB inactive_file:368kB unevictable:0kB writepending:4kB present:507840kB managed:407824kB mlocked:0kB kernel_stack:2640kB pagetables:7644kB bounce:0kB free_pcp:120kB local_pcp:120kB free_cma:0kB[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mlowmem_reserve[]: 0 0 0 0 0[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mNode 0 DMA: 6*4kB (U) 15*8kB (UM) 9*16kB (UME) 3*32kB (UM) 0*64kB 5*128kB (M) 0*256kB 1*512kB (U) 0*1024kB 0*2048kB 0*4096kB = 1536kB[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mNode 0 DMA32: 1*4kB (M) 136*8kB (U) 74*16kB (UE) 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 2276kB[0m
+May 02 15:35:38 hybridfile kernel: Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+May 02 15:35:38 hybridfile kernel: Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m538 total pagecache pages[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m0 pages in swap cache[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mSwap cache stats: add 0, delete 0, find 0/0[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mFree swap  = 0kB[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mTotal swap = 0kB[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m130958 pages RAM[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m0 pages HighMem/MovableOnly[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m25025 pages reserved[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m0 pages cma reserved[0m
+May 02 15:35:38 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m0 pages hwpoisoned[0m
+May 02 15:35:38 hybridfile kernel: Tasks state (memory values in pages):
+May 02 15:35:38 hybridfile kernel: [  pid  ]   uid  tgid total_vm      rss pgtables_bytes swapents oom_score_adj name
+May 02 15:35:38 hybridfile kernel: [    454]     0   454    23713      210   176128        0             0 systemd-journal
+May 02 15:35:38 hybridfile kernel: [    463]     0   463    24428       43    94208        0             0 lvmetad
+May 02 15:35:38 hybridfile kernel: [    465]     0   465    10890      252   118784        0         -1000 systemd-udevd
+May 02 15:35:38 hybridfile kernel: [    510]     0   510     3098      270    69632        0             0 hv_kvp_daemon
+May 02 15:35:38 hybridfile kernel: [    663] 62583   663    35446      125   184320        0             0 systemd-timesyn
+May 02 15:35:38 hybridfile kernel: [    786]   100   786    19978      161   180224        0             0 systemd-network
+May 02 15:35:38 hybridfile kernel: [    797]   101   797    17653      150   180224        0             0 systemd-resolve
+May 02 15:35:38 hybridfile kernel: [   1001]     0  1001    20058     3247   200704        0             0 python3
+May 02 15:35:38 hybridfile kernel: [   1002]     0  1002    17610      163   172032        0             0 systemd-logind
+May 02 15:35:38 hybridfile kernel: [   1010]     0  1010     7084       51    98304        0             0 atd
+May 02 15:35:38 hybridfile kernel: [   1011]     0  1011    40270       33    81920        0             0 lxcfs
+May 02 15:35:38 hybridfile kernel: [   1018]   103  1018    12541      182   139264        0          -900 dbus-daemon
+May 02 15:35:38 hybridfile kernel: [   1027]     0  1027    72000      223   196608        0             0 accounts-daemon
+May 02 15:35:38 hybridfile kernel: [   1033]     0  1033    42708     1946   233472        0             0 networkd-dispat
+May 02 15:35:38 hybridfile kernel: [   1039]     0  1039     7938       74   106496        0             0 cron
+May 02 15:35:38 hybridfile kernel: [   1046]   102  1046    66817      332   167936        0             0 rsyslogd
+May 02 15:35:38 hybridfile kernel: [   1047]     0  1047    46920     1975   258048        0             0 unattended-upgr
+May 02 15:35:38 hybridfile kernel: [   1064]     0  1064     4104       36    73728        0             0 agetty
+May 02 15:35:38 hybridfile kernel: [   1069]     0  1069     3723       33    73728        0             0 agetty
+May 02 15:35:38 hybridfile kernel: [   1079]     0  1079    72221      232   204800        0             0 polkitd
+May 02 15:35:38 hybridfile kernel: [   1256]     0  1256     1128       22    53248        0             0 none
+May 02 15:35:38 hybridfile kernel: [   1320]     0  1320    96637     4209   258048        0             0 python3
+May 02 15:35:38 hybridfile kernel: [   1517]     0  1517    18076      187   180224        0         -1000 sshd
+May 02 15:35:38 hybridfile kernel: [   1612]     0  1612    26423      245   253952        0             0 sshd
+May 02 15:35:38 hybridfile kernel: [   1621]  1000  1621    19132      238   184320        0             0 systemd
+May 02 15:35:38 hybridfile kernel: [   1622]  1000  1622    27977      642   249856        0             0 (sd-pam)
+May 02 15:35:38 hybridfile kernel: [   1749]  1000  1749    27030      274   258048        0             0 sshd
+May 02 15:35:38 hybridfile kernel: [   1750]  1000  1750     3266       75    73728        0             0 sftp-server
+May 02 15:35:38 hybridfile kernel: [   1782]     0  1782    26423      248   253952        0             0 sshd
+May 02 15:35:38 hybridfile kernel: [   1853]  1000  1853    26997      260   258048        0             0 sshd
+May 02 15:35:38 hybridfile kernel: [   1854]  1000  1854     5814      439    86016        0             0 bash
+May 02 15:35:38 hybridfile kernel: [  10653]     0 10653    26423      246   249856        0             0 sshd
+May 02 15:35:38 hybridfile kernel: [  10725]  1000 10725    27030      264   249856        0             0 sshd
+May 02 15:35:38 hybridfile kernel: [  10726]  1000 10726     3266       54    73728        0             0 sftp-server
+May 02 15:35:38 hybridfile kernel: [  12249]     0 12249    35281      380   237568        0             0 nginx
+May 02 15:35:38 hybridfile kernel: [  12252]    33 12252    35956      477   245760        0             0 nginx
+May 02 15:35:38 hybridfile kernel: [  12261]  1000 12261    29100     5202   270336        0             0 uwsgi
+May 02 15:35:38 hybridfile kernel: [  12282]  1000 12282    31246     6215   282624        0             0 uwsgi
+May 02 15:35:38 hybridfile kernel: [  12283]  1000 12283    29350     5229   266240        0             0 uwsgi
+May 02 15:35:38 hybridfile kernel: [  12284]  1000 12284    29374     5315   270336        0             0 uwsgi
+May 02 15:35:38 hybridfile kernel: [  12285]  1000 12285   122336     6172   323584        0             0 uwsgi
+May 02 15:35:38 hybridfile kernel: [  12286]  1000 12286    29346     5267   266240        0             0 uwsgi
+May 02 15:35:38 hybridfile kernel: [  15090]   111 15090   291106    42183   700416        0             0 mysqld
+May 02 15:35:38 hybridfile kernel: [  15135]  1000 15135    10120      215   122880        0             0 mysql
+May 02 15:35:38 hybridfile kernel: [  15136]     0 15136    18076      187   180224        0             0 sshd
+May 02 15:35:38 hybridfile kernel: [  15137]   109 15137    18076      190   172032        0             0 sshd
+May 02 15:35:38 hybridfile kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/system.slice/mysql.service,task=mysqld,pid=15090,uid=111
+May 02 15:35:38 hybridfile kernel: [0;1;31m[0;1;39m[0;1;31mOut of memory: Killed process 15090 (mysqld) total-vm:1164424kB, anon-rss:168732kB, file-rss:0kB, shmem-rss:0kB, UID:111 pgtables:684kB oom_score_adj:0[0m
+May 02 15:35:38 hybridfile kernel: oom_reaper: reaped process 15090 (mysqld), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+May 02 15:35:38 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Main process exited, code=killed, status=9/KILL[0m
+May 02 15:35:38 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'signal'.[0m
+May 02 15:35:39 hybridfile systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+May 02 15:35:39 hybridfile systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+May 02 15:35:39 hybridfile systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+May 02 15:35:39 hybridfile systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+May 02 15:35:44 hybridfile sshd[15207]: Invalid user support from 109.68.113.222 port 59008
+May 02 15:35:51 hybridfile sshd[15207]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:35:51 hybridfile sshd[15207]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:35:53 hybridfile sshd[15207]: Failed password for invalid user support from 109.68.113.222 port 59008 ssh2
+May 02 15:35:54 hybridfile sshd[15207]: Connection closed by invalid user support 109.68.113.222 port 59008 [preauth]
+May 02 15:35:55 hybridfile systemd[1]: Started MySQL Community Server.
+-- Subject: Unit mysql.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+May 02 15:36:00 hybridfile sshd[15213]: Invalid user support from 109.68.113.222 port 56276
+May 02 15:36:01 hybridfile sshd[15213]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:36:01 hybridfile sshd[15213]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:36:03 hybridfile sshd[15213]: Failed password for invalid user support from 109.68.113.222 port 56276 ssh2
+May 02 15:36:03 hybridfile sshd[15213]: Connection closed by invalid user support 109.68.113.222 port 56276 [preauth]
+May 02 15:36:10 hybridfile sshd[15217]: Invalid user support from 109.68.113.222 port 56521
+May 02 15:36:11 hybridfile sshd[15217]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:36:11 hybridfile sshd[15217]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:36:12 hybridfile sshd[15136]: Invalid user MikroTik from 200.8.99.193 port 56317
+May 02 15:36:13 hybridfile sshd[15217]: Failed password for invalid user support from 109.68.113.222 port 56521 ssh2
+May 02 15:36:13 hybridfile sshd[15217]: Connection closed by invalid user support 109.68.113.222 port 56521 [preauth]
+May 02 15:36:21 hybridfile sshd[15219]: Invalid user tech from 109.68.113.222 port 56786
+May 02 15:36:21 hybridfile sshd[15219]: Failed none for invalid user tech from 109.68.113.222 port 56786 ssh2
+May 02 15:36:21 hybridfile sshd[15219]: Connection closed by invalid user tech 109.68.113.222 port 56786 [preauth]
+May 02 15:36:28 hybridfile sshd[15221]: Invalid user tech from 109.68.113.222 port 56986
+May 02 15:36:30 hybridfile sshd[15221]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:36:30 hybridfile sshd[15221]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:36:32 hybridfile sshd[15221]: Failed password for invalid user tech from 109.68.113.222 port 56986 ssh2
+May 02 15:36:32 hybridfile sshd[15221]: Connection closed by invalid user tech 109.68.113.222 port 56986 [preauth]
+May 02 15:36:46 hybridfile sshd[15136]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:36:46 hybridfile sshd[15136]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=200.8.99.193[0m
+May 02 15:36:48 hybridfile sshd[15136]: Failed password for invalid user MikroTik from 200.8.99.193 port 56317 ssh2
+May 02 15:36:48 hybridfile sshd[15229]: Invalid user tech from 109.68.113.222 port 57440
+May 02 15:36:49 hybridfile sshd[15229]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:36:50 hybridfile sshd[15229]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:36:52 hybridfile sshd[15229]: Failed password for invalid user tech from 109.68.113.222 port 57440 ssh2
+May 02 15:36:53 hybridfile sshd[15229]: Connection closed by invalid user tech 109.68.113.222 port 57440 [preauth]
+May 02 15:37:05 hybridfile sshd[15232]: Invalid user tech from 109.68.113.222 port 57738
+May 02 15:37:24 hybridfile sshd[15231]: Invalid user profile1 from 200.8.99.193 port 64214
+May 02 15:37:37 hybridfile sshd[15232]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:37:38 hybridfile sshd[15232]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:37:41 hybridfile sshd[15232]: Failed password for invalid user tech from 109.68.113.222 port 57738 ssh2
+May 02 15:37:42 hybridfile sshd[15232]: Connection closed by invalid user tech 109.68.113.222 port 57738 [preauth]
+May 02 15:37:43 hybridfile sshd[15231]: Failed none for invalid user profile1 from 200.8.99.193 port 64214 ssh2
+May 02 15:37:44 hybridfile sshd[15231]: Connection closed by invalid user profile1 200.8.99.193 port 64214 [preauth]
+May 02 15:37:48 hybridfile sshd[15240]: Invalid user tech from 109.68.113.222 port 58958
+May 02 15:37:49 hybridfile sshd[15240]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:37:49 hybridfile sshd[15240]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:37:50 hybridfile sshd[15240]: Failed password for invalid user tech from 109.68.113.222 port 58958 ssh2
+May 02 15:37:51 hybridfile sshd[15240]: Connection closed by invalid user tech 109.68.113.222 port 58958 [preauth]
+May 02 15:37:58 hybridfile sshd[15245]: Invalid user tech from 109.68.113.222 port 59218
+May 02 15:37:58 hybridfile sshd[15245]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:37:58 hybridfile sshd[15245]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:38:00 hybridfile sshd[15243]: Invalid user profile1 from 200.8.99.193 port 52648
+May 02 15:38:00 hybridfile sshd[15245]: Failed password for invalid user tech from 109.68.113.222 port 59218 ssh2
+May 02 15:38:00 hybridfile sshd[15245]: Connection closed by invalid user tech 109.68.113.222 port 59218 [preauth]
+May 02 15:38:03 hybridfile sshd[15243]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:38:03 hybridfile sshd[15243]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=200.8.99.193[0m
+May 02 15:38:05 hybridfile sshd[15243]: Failed password for invalid user profile1 from 200.8.99.193 port 52648 ssh2
+May 02 15:38:06 hybridfile sshd[15243]: Connection closed by invalid user profile1 200.8.99.193 port 52648 [preauth]
+May 02 15:38:08 hybridfile sshd[15247]: Invalid user tech from 109.68.113.222 port 59496
+May 02 15:38:08 hybridfile sshd[15247]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:38:08 hybridfile sshd[15247]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:38:10 hybridfile sshd[15247]: Failed password for invalid user tech from 109.68.113.222 port 59496 ssh2
+May 02 15:38:11 hybridfile sshd[15247]: Connection closed by invalid user tech 109.68.113.222 port 59496 [preauth]
+May 02 15:38:24 hybridfile sshd[15249]: Invalid user profile1 from 200.8.99.193 port 54654
+May 02 15:38:25 hybridfile sshd[15249]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:38:25 hybridfile sshd[15249]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=200.8.99.193[0m
+May 02 15:38:28 hybridfile sshd[15249]: Failed password for invalid user profile1 from 200.8.99.193 port 54654 ssh2
+May 02 15:38:28 hybridfile sshd[15254]: Invalid user tech from 109.68.113.222 port 59925
+May 02 15:38:42 hybridfile sshd[15249]: Connection closed by invalid user profile1 200.8.99.193 port 54654 [preauth]
+May 02 15:38:47 hybridfile sshd[15254]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:38:48 hybridfile sshd[15254]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:38:50 hybridfile sshd[15254]: Failed password for invalid user tech from 109.68.113.222 port 59925 ssh2
+May 02 15:38:51 hybridfile sshd[15254]: Connection closed by invalid user tech 109.68.113.222 port 59925 [preauth]
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mpython3 invoked oom-killer: gfp_mask=0x100cca(GFP_HIGHUSER_MOVABLE), order=0, oom_score_adj=0[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mCPU: 0 PID: 1382 Comm: python3 Not tainted 5.4.0-1046-azure #48~18.04.1-Ubuntu[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mHardware name: Microsoft Corporation Virtual Machine/Virtual Machine, BIOS 090008  12/07/2018[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mCall Trace:[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m dump_stack+0x57/0x6d[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m dump_header+0x4f/0x200[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m oom_kill_process+0xe6/0x120[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m out_of_memory+0x109/0x510[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m __alloc_pages_slowpath+0xa9b/0xe50[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m __alloc_pages_nodemask+0x2cd/0x320[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m alloc_pages_current+0x6a/0xe0[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m __page_cache_alloc+0x6a/0xa0[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m pagecache_get_page+0xab/0x2c0[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m filemap_fault+0x669/0xb60[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m ? hrtimer_try_to_cancel+0x2a/0x110[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m ? hrtimer_cancel+0x15/0x20[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m ? xas_load+0xc/0x80[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m ? xas_find+0x16f/0x1b0[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m ? filemap_map_pages+0x17d/0x3b0[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m ext4_filemap_fault+0x31/0x50[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m __do_fault+0x57/0x110[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m __handle_mm_fault+0xdf1/0x1330[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m handle_mm_fault+0xb7/0x200[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m __do_page_fault+0x29c/0x4c0[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m do_page_fault+0x35/0x110[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m page_fault+0x39/0x40[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mRIP: 0033:0x7f58f568a065[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mCode: Bad RIP value.[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mRSP: 002b:00007f58f0cd7510 EFLAGS: 00010246[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mRAX: ffffffffffffff92 RBX: 0000000000a745a0 RCX: 00007f58f568a065[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mRDX: 0000000000000000 RSI: 0000000000000189 RDI: 0000000000a745c8[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mRBP: 0000000000000000 R08: 0000000000000000 R09: 00000000ffffffff[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mR10: 00007f58f0cd7610 R11: 0000000000000246 R12: 0000000000a74560[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mR13: 0000000000a745c8 R14: 00007f58f0cd7610 R15: 0000000000a745c4[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mMem-Info:[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mactive_anon:78567 inactive_anon:275 isolated_anon:0[0m
+                                   [0;1;39m active_file:45 inactive_file:58 isolated_file:0[0m
+                                   [0;1;39m unevictable:0 dirty:1 writeback:0 unstable:0[0m
+                                   [0;1;39m slab_reclaimable:5138 slab_unreclaimable:9599[0m
+                                   [0;1;39m mapped:232 shmem:381 pagetables:1976 bounce:0[0m
+                                   [0;1;39m free:962 free_pcp:72 free_cma:0[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mNode 0 active_anon:314268kB inactive_anon:1100kB active_file:180kB inactive_file:232kB unevictable:0kB isolated(anon):0kB isolated(file):0kB mapped:928kB dirty:4kB writeback:0kB shmem:1524kB shmem_thp: 0kB shmem_pmdmapped: 0kB anon_thp: 0kB writeback_tmp:0kB unstable:0kB all_unreclaimable? yes[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mNode 0 DMA free:1544kB min:100kB low:124kB high:148kB active_anon:13560kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:15992kB managed:15908kB mlocked:0kB kernel_stack:16kB pagetables:272kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mlowmem_reserve[]: 0 361 361 361 361[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mNode 0 DMA32 free:2304kB min:2380kB low:2972kB high:3564kB active_anon:300708kB inactive_anon:1100kB active_file:180kB inactive_file:232kB unevictable:0kB writepending:4kB present:507840kB managed:407824kB mlocked:0kB kernel_stack:2656kB pagetables:7632kB bounce:0kB free_pcp:288kB local_pcp:288kB free_cma:0kB[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mlowmem_reserve[]: 0 0 0 0 0[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mNode 0 DMA: 8*4kB (UM) 13*8kB (UM) 8*16kB (UE) 2*32kB (U) 1*64kB (M) 5*128kB (M) 0*256kB 1*512kB (U) 0*1024kB 0*2048kB 0*4096kB = 1544kB[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mNode 0 DMA32: 0*4kB 128*8kB (U) 80*16kB (UE) 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 2304kB[0m
+May 02 15:38:54 hybridfile kernel: Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+May 02 15:38:54 hybridfile kernel: Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m485 total pagecache pages[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m0 pages in swap cache[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mSwap cache stats: add 0, delete 0, find 0/0[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mFree swap  = 0kB[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39mTotal swap = 0kB[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m130958 pages RAM[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m0 pages HighMem/MovableOnly[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m25025 pages reserved[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m0 pages cma reserved[0m
+May 02 15:38:54 hybridfile kernel: [0;1;39m[0;1;31m[0;1;39m0 pages hwpoisoned[0m
+May 02 15:38:54 hybridfile kernel: Tasks state (memory values in pages):
+May 02 15:38:54 hybridfile kernel: [  pid  ]   uid  tgid total_vm      rss pgtables_bytes swapents oom_score_adj name
+May 02 15:38:54 hybridfile kernel: [    454]     0   454    23713      212   176128        0             0 systemd-journal
+May 02 15:38:54 hybridfile kernel: [    463]     0   463    24428       43    94208        0             0 lvmetad
+May 02 15:38:54 hybridfile kernel: [    465]     0   465    10890      252   118784        0         -1000 systemd-udevd
+May 02 15:38:54 hybridfile kernel: [    510]     0   510     3098      270    69632        0             0 hv_kvp_daemon
+May 02 15:38:54 hybridfile kernel: [    663] 62583   663    35446      125   184320        0             0 systemd-timesyn
+May 02 15:38:54 hybridfile kernel: [    786]   100   786    19978      161   180224        0             0 systemd-network
+May 02 15:38:54 hybridfile kernel: [    797]   101   797    17653      150   180224        0             0 systemd-resolve
+May 02 15:38:54 hybridfile kernel: [   1001]     0  1001    20058     3247   200704        0             0 python3
+May 02 15:38:54 hybridfile kernel: [   1002]     0  1002    17610      163   172032        0             0 systemd-logind
+May 02 15:38:54 hybridfile kernel: [   1010]     0  1010     7084       51    98304        0             0 atd
+May 02 15:38:54 hybridfile kernel: [   1011]     0  1011    40270       33    81920        0             0 lxcfs
+May 02 15:38:54 hybridfile kernel: [   1018]   103  1018    12541      182   139264        0          -900 dbus-daemon
+May 02 15:38:54 hybridfile kernel: [   1027]     0  1027    72000      223   196608        0             0 accounts-daemon
+May 02 15:38:54 hybridfile kernel: [   1033]     0  1033    42708     1946   233472        0             0 networkd-dispat
+May 02 15:38:54 hybridfile kernel: [   1039]     0  1039     7938       74   106496        0             0 cron
+May 02 15:38:54 hybridfile kernel: [   1046]   102  1046    66817      333   167936        0             0 rsyslogd
+May 02 15:38:54 hybridfile kernel: [   1047]     0  1047    46920     1975   258048        0             0 unattended-upgr
+May 02 15:38:54 hybridfile kernel: [   1064]     0  1064     4104       36    73728        0             0 agetty
+May 02 15:38:54 hybridfile kernel: [   1069]     0  1069     3723       33    73728        0             0 agetty
+May 02 15:38:54 hybridfile kernel: [   1079]     0  1079    72221      233   204800        0             0 polkitd
+May 02 15:38:54 hybridfile kernel: [   1256]     0  1256     1128       22    53248        0             0 none
+May 02 15:38:54 hybridfile kernel: [   1320]     0  1320    96637     4209   258048        0             0 python3
+May 02 15:38:54 hybridfile kernel: [   1517]     0  1517    18076      187   180224        0         -1000 sshd
+May 02 15:38:54 hybridfile kernel: [   1612]     0  1612    26423      245   253952        0             0 sshd
+May 02 15:38:54 hybridfile kernel: [   1621]  1000  1621    19132      238   184320        0             0 systemd
+May 02 15:38:54 hybridfile kernel: [   1622]  1000  1622    27977      642   249856        0             0 (sd-pam)
+May 02 15:38:54 hybridfile kernel: [   1749]  1000  1749    27030      274   258048        0             0 sshd
+May 02 15:38:54 hybridfile kernel: [   1750]  1000  1750     3266       75    73728        0             0 sftp-server
+May 02 15:38:54 hybridfile kernel: [   1782]     0  1782    26423      248   253952        0             0 sshd
+May 02 15:38:54 hybridfile kernel: [   1853]  1000  1853    26997      260   258048        0             0 sshd
+May 02 15:38:54 hybridfile kernel: [   1854]  1000  1854     5814      440    86016        0             0 bash
+May 02 15:38:54 hybridfile kernel: [  10653]     0 10653    26423      246   249856        0             0 sshd
+May 02 15:38:54 hybridfile kernel: [  10725]  1000 10725    27030      264   249856        0             0 sshd
+May 02 15:38:54 hybridfile kernel: [  10726]  1000 10726     3266       54    73728        0             0 sftp-server
+May 02 15:38:54 hybridfile kernel: [  12249]     0 12249    35281      380   237568        0             0 nginx
+May 02 15:38:54 hybridfile kernel: [  12252]    33 12252    35956      477   245760        0             0 nginx
+May 02 15:38:54 hybridfile kernel: [  12261]  1000 12261    29100     5202   270336        0             0 uwsgi
+May 02 15:38:54 hybridfile kernel: [  12282]  1000 12282    31246     6215   282624        0             0 uwsgi
+May 02 15:38:54 hybridfile kernel: [  12283]  1000 12283    29350     5229   266240        0             0 uwsgi
+May 02 15:38:54 hybridfile kernel: [  12284]  1000 12284    29374     5315   270336        0             0 uwsgi
+May 02 15:38:54 hybridfile kernel: [  12285]  1000 12285   122336     6172   323584        0             0 uwsgi
+May 02 15:38:54 hybridfile kernel: [  12286]  1000 12286    29346     5267   266240        0             0 uwsgi
+May 02 15:38:54 hybridfile kernel: [  15177]   111 15177   291107    42169   684032        0             0 mysqld
+May 02 15:38:54 hybridfile kernel: [  15253]  1000 15253    10120      214   122880        0             0 mysql
+May 02 15:38:54 hybridfile kernel: [  15256]     0 15256    18076      186   180224        0             0 sshd
+May 02 15:38:54 hybridfile kernel: [  15258]   109 15258    18076      188   176128        0             0 sshd
+May 02 15:38:54 hybridfile kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/system.slice/mysql.service,task=mysqld,pid=15177,uid=111
+May 02 15:38:54 hybridfile kernel: [0;1;31m[0;1;39m[0;1;31mOut of memory: Killed process 15177 (mysqld) total-vm:1164428kB, anon-rss:168676kB, file-rss:0kB, shmem-rss:0kB, UID:111 pgtables:668kB oom_score_adj:0[0m
+May 02 15:38:54 hybridfile kernel: oom_reaper: reaped process 15177 (mysqld), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+May 02 15:38:55 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Main process exited, code=killed, status=9/KILL[0m
+May 02 15:38:55 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'signal'.[0m
+May 02 15:38:55 hybridfile systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+May 02 15:38:55 hybridfile systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+May 02 15:38:55 hybridfile systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+May 02 15:38:55 hybridfile systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+May 02 15:38:57 hybridfile systemd[1]: Started MySQL Community Server.
+-- Subject: Unit mysql.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+May 02 15:38:58 hybridfile sshd[15327]: Invalid user tech from 109.68.113.222 port 60699
+May 02 15:38:58 hybridfile sshd[15327]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:38:58 hybridfile sshd[15327]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:39:00 hybridfile sshd[15327]: Failed password for invalid user tech from 109.68.113.222 port 60699 ssh2
+May 02 15:39:00 hybridfile sshd[15327]: Connection closed by invalid user tech 109.68.113.222 port 60699 [preauth]
+May 02 15:39:07 hybridfile sshd[15330]: Invalid user tech from 109.68.113.222 port 60947
+May 02 15:39:08 hybridfile sshd[15330]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:39:08 hybridfile sshd[15330]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:39:10 hybridfile sshd[15330]: Failed password for invalid user tech from 109.68.113.222 port 60947 ssh2
+May 02 15:39:10 hybridfile sshd[15330]: Connection closed by invalid user tech 109.68.113.222 port 60947 [preauth]
+May 02 15:39:17 hybridfile sshd[15332]: Invalid user tech from 109.68.113.222 port 61200
+May 02 15:39:18 hybridfile sshd[15332]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:39:18 hybridfile sshd[15332]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:39:20 hybridfile sshd[15332]: Failed password for invalid user tech from 109.68.113.222 port 61200 ssh2
+May 02 15:39:20 hybridfile sshd[15332]: Connection closed by invalid user tech 109.68.113.222 port 61200 [preauth]
+May 02 15:39:27 hybridfile sshd[15336]: Invalid user tech from 109.68.113.222 port 61456
+May 02 15:39:28 hybridfile sshd[15336]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:39:28 hybridfile sshd[15336]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:39:30 hybridfile sshd[15336]: Failed password for invalid user tech from 109.68.113.222 port 61456 ssh2
+May 02 15:39:30 hybridfile sshd[15336]: Connection closed by invalid user tech 109.68.113.222 port 61456 [preauth]
+May 02 15:39:38 hybridfile sshd[15338]: Invalid user tech from 109.68.113.222 port 61722
+May 02 15:39:38 hybridfile sshd[15338]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:39:38 hybridfile sshd[15338]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:39:41 hybridfile sshd[15338]: Failed password for invalid user tech from 109.68.113.222 port 61722 ssh2
+May 02 15:39:41 hybridfile sshd[15338]: Connection closed by invalid user tech 109.68.113.222 port 61722 [preauth]
+May 02 15:39:48 hybridfile sshd[15340]: Invalid user tech from 109.68.113.222 port 61978
+May 02 15:39:50 hybridfile sshd[15340]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:39:50 hybridfile sshd[15340]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:39:52 hybridfile sshd[15340]: Failed password for invalid user tech from 109.68.113.222 port 61978 ssh2
+May 02 15:39:52 hybridfile sshd[15340]: Connection closed by invalid user tech 109.68.113.222 port 61978 [preauth]
+May 02 15:40:01 hybridfile sshd[15344]: Invalid user tech from 109.68.113.222 port 62243
+May 02 15:40:01 hybridfile sshd[15344]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:40:01 hybridfile sshd[15344]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:40:04 hybridfile sshd[15344]: Failed password for invalid user tech from 109.68.113.222 port 62243 ssh2
+May 02 15:40:04 hybridfile sshd[15344]: Connection closed by invalid user tech 109.68.113.222 port 62243 [preauth]
+May 02 15:40:11 hybridfile sshd[15346]: Invalid user tech from 109.68.113.222 port 62560
+May 02 15:40:12 hybridfile sshd[15346]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:40:13 hybridfile sshd[15346]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:40:15 hybridfile sshd[15346]: Failed password for invalid user tech from 109.68.113.222 port 62560 ssh2
+May 02 15:40:15 hybridfile sshd[15346]: Connection closed by invalid user tech 109.68.113.222 port 62560 [preauth]
+May 02 15:40:22 hybridfile sshd[15348]: Invalid user tech from 109.68.113.222 port 62845
+May 02 15:40:22 hybridfile sshd[15348]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:40:22 hybridfile sshd[15348]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:40:24 hybridfile sshd[15348]: Failed password for invalid user tech from 109.68.113.222 port 62845 ssh2
+May 02 15:40:24 hybridfile sshd[15348]: Connection closed by invalid user tech 109.68.113.222 port 62845 [preauth]
+May 02 15:40:32 hybridfile sshd[15352]: Invalid user tech from 109.68.113.222 port 63098
+May 02 15:40:32 hybridfile sshd[15352]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:40:32 hybridfile sshd[15352]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:40:35 hybridfile sshd[15352]: Failed password for invalid user tech from 109.68.113.222 port 63098 ssh2
+May 02 15:40:35 hybridfile sshd[15352]: Connection closed by invalid user tech 109.68.113.222 port 63098 [preauth]
+May 02 15:40:42 hybridfile sshd[15354]: Invalid user demo from 109.68.113.222 port 63349
+May 02 15:40:42 hybridfile sshd[15354]: Failed none for invalid user demo from 109.68.113.222 port 63349 ssh2
+May 02 15:40:42 hybridfile sshd[15354]: Connection closed by invalid user demo 109.68.113.222 port 63349 [preauth]
+May 02 15:40:50 hybridfile sshd[15356]: Invalid user demo from 109.68.113.222 port 63562
+May 02 15:40:50 hybridfile sshd[15356]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:40:50 hybridfile sshd[15356]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:40:52 hybridfile sshd[15356]: Failed password for invalid user demo from 109.68.113.222 port 63562 ssh2
+May 02 15:40:53 hybridfile sshd[15356]: Connection closed by invalid user demo 109.68.113.222 port 63562 [preauth]
+May 02 15:41:00 hybridfile sshd[15360]: Invalid user demo from 109.68.113.222 port 63838
+May 02 15:41:00 hybridfile sshd[15360]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:41:00 hybridfile sshd[15360]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:41:03 hybridfile sshd[15360]: Failed password for invalid user demo from 109.68.113.222 port 63838 ssh2
+May 02 15:41:03 hybridfile sshd[15360]: Connection closed by invalid user demo 109.68.113.222 port 63838 [preauth]
+May 02 15:41:07 hybridfile sshd[15362]: Invalid user profile1 from 200.8.99.193 port 53508
+May 02 15:41:08 hybridfile sshd[15362]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:41:08 hybridfile sshd[15362]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=200.8.99.193[0m
+May 02 15:41:10 hybridfile sshd[15362]: Failed password for invalid user profile1 from 200.8.99.193 port 53508 ssh2
+May 02 15:41:10 hybridfile sshd[15364]: Invalid user demo from 109.68.113.222 port 64087
+May 02 15:41:10 hybridfile sshd[15362]: Connection closed by invalid user profile1 200.8.99.193 port 53508 [preauth]
+May 02 15:41:11 hybridfile sshd[15364]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:41:11 hybridfile sshd[15364]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:41:13 hybridfile sudo[15366]: [0;1;39m[0;1;31m[0;1;39m shreyas : TTY=pts/0 ; PWD=/home/shreyas/myproject/HybridCryptoCloud ; USER=root ; COMMAND=/bin/nano /etc/mysql/my.cnf[0m
+May 02 15:41:13 hybridfile sudo[15366]: pam_unix(sudo:session): session opened for user root by shreyas(uid=0)
+May 02 15:41:13 hybridfile sshd[15364]: Failed password for invalid user demo from 109.68.113.222 port 64087 ssh2
+May 02 15:41:13 hybridfile sshd[15364]: Connection closed by invalid user demo 109.68.113.222 port 64087 [preauth]
+May 02 15:41:21 hybridfile sshd[15370]: Invalid user demo from 109.68.113.222 port 64359
+May 02 15:41:30 hybridfile sudo[15366]: pam_unix(sudo:session): session closed for user root
+May 02 15:41:32 hybridfile sshd[15370]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:41:32 hybridfile sshd[15370]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:41:34 hybridfile sshd[15370]: Failed password for invalid user demo from 109.68.113.222 port 64359 ssh2
+May 02 15:41:34 hybridfile sshd[15370]: Connection closed by invalid user demo 109.68.113.222 port 64359 [preauth]
+May 02 15:41:42 hybridfile sshd[15374]: Invalid user demo from 109.68.113.222 port 64844
+May 02 15:41:43 hybridfile sshd[15374]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:41:43 hybridfile sshd[15374]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:41:45 hybridfile sshd[15374]: Failed password for invalid user demo from 109.68.113.222 port 64844 ssh2
+May 02 15:41:45 hybridfile sshd[15374]: Connection closed by invalid user demo 109.68.113.222 port 64844 [preauth]
+May 02 15:41:52 hybridfile sshd[15377]: Invalid user demo from 109.68.113.222 port 65138
+May 02 15:41:53 hybridfile sshd[15377]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:41:53 hybridfile sshd[15377]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:41:55 hybridfile sshd[15377]: Failed password for invalid user demo from 109.68.113.222 port 65138 ssh2
+May 02 15:41:55 hybridfile sshd[15377]: Connection closed by invalid user demo 109.68.113.222 port 65138 [preauth]
+May 02 15:42:03 hybridfile sshd[15379]: Invalid user demo from 109.68.113.222 port 65394
+May 02 15:42:07 hybridfile sudo[15383]: [0;1;39m[0;1;31m[0;1;39m shreyas : TTY=pts/0 ; PWD=/home/shreyas/myproject/HybridCryptoCloud ; USER=root ; COMMAND=/bin/ls /etc/msql/[0m
+May 02 15:42:07 hybridfile sshd[15379]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:42:07 hybridfile sshd[15379]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:42:07 hybridfile sudo[15383]: pam_unix(sudo:session): session opened for user root by shreyas(uid=0)
+May 02 15:42:08 hybridfile sudo[15383]: pam_unix(sudo:session): session closed for user root
+May 02 15:42:09 hybridfile sshd[15379]: Failed password for invalid user demo from 109.68.113.222 port 65394 ssh2
+May 02 15:42:09 hybridfile sshd[15379]: Connection closed by invalid user demo 109.68.113.222 port 65394 [preauth]
+May 02 15:42:16 hybridfile sshd[15385]: Invalid user demo from 109.68.113.222 port 49361
+May 02 15:42:19 hybridfile sshd[15385]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:42:19 hybridfile sshd[15385]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:42:21 hybridfile sudo[15387]: [0;1;39m[0;1;31m[0;1;39m shreyas : TTY=pts/0 ; PWD=/home/shreyas/myproject/HybridCryptoCloud ; USER=root ; COMMAND=/bin/ls /etc/mysql/[0m
+May 02 15:42:21 hybridfile sshd[15385]: Failed password for invalid user demo from 109.68.113.222 port 49361 ssh2
+May 02 15:42:21 hybridfile sudo[15387]: pam_unix(sudo:session): session opened for user root by shreyas(uid=0)
+May 02 15:42:22 hybridfile sshd[15385]: Connection closed by invalid user demo 109.68.113.222 port 49361 [preauth]
+May 02 15:42:22 hybridfile sudo[15387]: pam_unix(sudo:session): session closed for user root
+May 02 15:42:29 hybridfile sshd[15389]: Invalid user demo from 109.68.113.222 port 49682
+May 02 15:42:29 hybridfile sshd[15389]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:42:30 hybridfile sshd[15389]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:42:31 hybridfile sshd[15368]: Invalid user profile1 from 200.8.99.193 port 55000
+May 02 15:42:32 hybridfile sshd[15389]: Failed password for invalid user demo from 109.68.113.222 port 49682 ssh2
+May 02 15:42:32 hybridfile sshd[15389]: Connection closed by invalid user demo 109.68.113.222 port 49682 [preauth]
+May 02 15:42:33 hybridfile sshd[15368]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:42:33 hybridfile sshd[15368]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=200.8.99.193[0m
+May 02 15:42:35 hybridfile sshd[15368]: Failed password for invalid user profile1 from 200.8.99.193 port 55000 ssh2
+May 02 15:42:39 hybridfile sshd[15393]: Invalid user demo from 109.68.113.222 port 49965
+May 02 15:42:40 hybridfile sshd[15393]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:42:40 hybridfile sshd[15393]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:42:42 hybridfile sshd[15393]: Failed password for invalid user demo from 109.68.113.222 port 49965 ssh2
+May 02 15:42:42 hybridfile sshd[15393]: Connection closed by invalid user demo 109.68.113.222 port 49965 [preauth]
+May 02 15:42:42 hybridfile sshd[15368]: Connection closed by invalid user profile1 200.8.99.193 port 55000 [preauth]
+May 02 15:42:49 hybridfile sshd[15397]: Invalid user demo from 109.68.113.222 port 49328
+May 02 15:42:49 hybridfile sshd[15397]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:42:49 hybridfile sshd[15397]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:42:51 hybridfile sshd[15397]: Failed password for invalid user demo from 109.68.113.222 port 49328 ssh2
+May 02 15:42:51 hybridfile sshd[15397]: Connection closed by invalid user demo 109.68.113.222 port 49328 [preauth]
+May 02 15:42:55 hybridfile sudo[15400]: [0;1;39m[0;1;31m[0;1;39m shreyas : TTY=pts/0 ; PWD=/home/shreyas/myproject/HybridCryptoCloud ; USER=root ; COMMAND=/bin/ls /etc/[0m
+May 02 15:42:55 hybridfile sudo[15400]: pam_unix(sudo:session): session opened for user root by shreyas(uid=0)
+May 02 15:42:55 hybridfile sudo[15400]: pam_unix(sudo:session): session closed for user root
+May 02 15:42:58 hybridfile sshd[15402]: Invalid user demo from 109.68.113.222 port 50499
+May 02 15:42:59 hybridfile sshd[15402]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:42:59 hybridfile sshd[15402]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:43:01 hybridfile sshd[15402]: Failed password for invalid user demo from 109.68.113.222 port 50499 ssh2
+May 02 15:43:01 hybridfile sshd[15402]: Connection closed by invalid user demo 109.68.113.222 port 50499 [preauth]
+May 02 15:43:17 hybridfile sshd[15406]: Invalid user demo from 109.68.113.222 port 50952
+May 02 15:43:18 hybridfile sshd[15406]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:43:18 hybridfile sshd[15406]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:43:20 hybridfile sshd[15406]: Failed password for invalid user demo from 109.68.113.222 port 50952 ssh2
+May 02 15:43:20 hybridfile sshd[15406]: Connection closed by invalid user demo 109.68.113.222 port 50952 [preauth]
+May 02 15:43:26 hybridfile sudo[15408]: [0;1;39m[0;1;31m[0;1;39m shreyas : TTY=pts/0 ; PWD=/home/shreyas/myproject/HybridCryptoCloud ; USER=root ; COMMAND=/bin/nano /etc/mysql/my.cnf[0m
+May 02 15:43:26 hybridfile sudo[15408]: pam_unix(sudo:session): session opened for user root by shreyas(uid=0)
+May 02 15:43:29 hybridfile sshd[15409]: Invalid user demo from 109.68.113.222 port 51195
+May 02 15:43:51 hybridfile sudo[15408]: pam_unix(sudo:session): session closed for user root
+May 02 15:43:53 hybridfile sshd[15409]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:43:53 hybridfile sshd[15409]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:43:55 hybridfile sshd[15409]: Failed password for invalid user demo from 109.68.113.222 port 51195 ssh2
+May 02 15:43:55 hybridfile sshd[15409]: Connection closed by invalid user demo 109.68.113.222 port 51195 [preauth]
+May 02 15:44:00 hybridfile sudo[15414]: [0;1;39m[0;1;31m[0;1;39m shreyas : TTY=pts/0 ; PWD=/home/shreyas/myproject/HybridCryptoCloud ; USER=root ; COMMAND=/usr/sbin/service mysql restart[0m
+May 02 15:44:00 hybridfile sudo[15414]: pam_unix(sudo:session): session opened for user root by shreyas(uid=0)
+May 02 15:44:01 hybridfile systemd[1]: Stopping MySQL Community Server...
+-- Subject: Unit mysql.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun shutting down.
+May 02 15:44:07 hybridfile systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+May 02 15:44:07 hybridfile systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+May 02 15:44:07 hybridfile mysql-systemd-start[15423]: my_print_defaults: [ERROR] Found option without preceding group in config file /etc/mysql/my.cnf at line 23!
+May 02 15:44:07 hybridfile mysql-systemd-start[15423]: my_print_defaults: [ERROR] Fatal error in defaults handling. Program aborted!
+May 02 15:44:07 hybridfile mysql-systemd-start[15423]: ERROR: Unable to start MySQL server:
+May 02 15:44:07 hybridfile mysql-systemd-start[15423]: mysqld: [ERROR] Found option without preceding group in config file /etc/mysql/my.cnf at line 23!
+May 02 15:44:07 hybridfile mysql-systemd-start[15423]: mysqld: [ERROR] Fatal error in defaults handling. Program aborted!
+May 02 15:44:07 hybridfile mysql-systemd-start[15423]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+May 02 15:44:07 hybridfile mysql-systemd-start[15423]: Once the problem is resolved, restart the service.
+May 02 15:44:07 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+May 02 15:44:07 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+May 02 15:44:07 hybridfile systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+May 02 15:44:07 hybridfile sudo[15414]: pam_unix(sudo:session): session closed for user root
+May 02 15:44:08 hybridfile systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+May 02 15:44:08 hybridfile systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+May 02 15:44:08 hybridfile systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+May 02 15:44:08 hybridfile systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+May 02 15:44:08 hybridfile mysql-systemd-start[15472]: my_print_defaults: [ERROR] Found option without preceding group in config file /etc/mysql/my.cnf at line 23!
+May 02 15:44:08 hybridfile mysql-systemd-start[15472]: my_print_defaults: [ERROR] Fatal error in defaults handling. Program aborted!
+May 02 15:44:08 hybridfile mysql-systemd-start[15472]: ERROR: Unable to start MySQL server:
+May 02 15:44:08 hybridfile mysql-systemd-start[15472]: mysqld: [ERROR] Found option without preceding group in config file /etc/mysql/my.cnf at line 23!
+May 02 15:44:08 hybridfile mysql-systemd-start[15472]: mysqld: [ERROR] Fatal error in defaults handling. Program aborted!
+May 02 15:44:08 hybridfile mysql-systemd-start[15472]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+May 02 15:44:08 hybridfile mysql-systemd-start[15472]: Once the problem is resolved, restart the service.
+May 02 15:44:08 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+May 02 15:44:08 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+May 02 15:44:08 hybridfile systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+May 02 15:44:08 hybridfile systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+May 02 15:44:08 hybridfile systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+May 02 15:44:08 hybridfile systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+May 02 15:44:08 hybridfile systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+May 02 15:44:08 hybridfile mysql-systemd-start[15500]: my_print_defaults: [ERROR] Found option without preceding group in config file /etc/mysql/my.cnf at line 23!
+May 02 15:44:08 hybridfile mysql-systemd-start[15500]: my_print_defaults: [ERROR] Fatal error in defaults handling. Program aborted!
+May 02 15:44:08 hybridfile mysql-systemd-start[15500]: ERROR: Unable to start MySQL server:
+May 02 15:44:08 hybridfile mysql-systemd-start[15500]: mysqld: [ERROR] Found option without preceding group in config file /etc/mysql/my.cnf at line 23!
+May 02 15:44:08 hybridfile mysql-systemd-start[15500]: mysqld: [ERROR] Fatal error in defaults handling. Program aborted!
+May 02 15:44:08 hybridfile mysql-systemd-start[15500]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+May 02 15:44:08 hybridfile mysql-systemd-start[15500]: Once the problem is resolved, restart the service.
+May 02 15:44:08 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+May 02 15:44:08 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+May 02 15:44:08 hybridfile systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+May 02 15:44:08 hybridfile systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+May 02 15:44:08 hybridfile systemd[1]: mysql.service: Scheduled restart job, restart counter is at 3.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+May 02 15:44:08 hybridfile systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+May 02 15:44:08 hybridfile systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+May 02 15:44:08 hybridfile mysql-systemd-start[15528]: my_print_defaults: [ERROR] Found option without preceding group in config file /etc/mysql/my.cnf at line 23!
+May 02 15:44:08 hybridfile mysql-systemd-start[15528]: my_print_defaults: [ERROR] Fatal error in defaults handling. Program aborted!
+May 02 15:44:08 hybridfile sshd[15420]: Invalid user demo from 109.68.113.222 port 52146
+May 02 15:44:08 hybridfile mysql-systemd-start[15528]: ERROR: Unable to start MySQL server:
+May 02 15:44:08 hybridfile mysql-systemd-start[15528]: mysqld: [ERROR] Found option without preceding group in config file /etc/mysql/my.cnf at line 23!
+May 02 15:44:08 hybridfile mysql-systemd-start[15528]: mysqld: [ERROR] Fatal error in defaults handling. Program aborted!
+May 02 15:44:08 hybridfile mysql-systemd-start[15528]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+May 02 15:44:08 hybridfile mysql-systemd-start[15528]: Once the problem is resolved, restart the service.
+May 02 15:44:08 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+May 02 15:44:08 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+May 02 15:44:08 hybridfile systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+May 02 15:44:08 hybridfile systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+May 02 15:44:08 hybridfile systemd[1]: mysql.service: Scheduled restart job, restart counter is at 4.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+May 02 15:44:08 hybridfile systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+May 02 15:44:08 hybridfile sshd[15420]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:44:08 hybridfile systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+May 02 15:44:08 hybridfile sshd[15420]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:44:08 hybridfile mysql-systemd-start[15556]: my_print_defaults: [ERROR] Found option without preceding group in config file /etc/mysql/my.cnf at line 23!
+May 02 15:44:08 hybridfile mysql-systemd-start[15556]: my_print_defaults: [ERROR] Fatal error in defaults handling. Program aborted!
+May 02 15:44:08 hybridfile mysql-systemd-start[15556]: ERROR: Unable to start MySQL server:
+May 02 15:44:08 hybridfile mysql-systemd-start[15556]: mysqld: [ERROR] Found option without preceding group in config file /etc/mysql/my.cnf at line 23!
+May 02 15:44:08 hybridfile mysql-systemd-start[15556]: mysqld: [ERROR] Fatal error in defaults handling. Program aborted!
+May 02 15:44:08 hybridfile mysql-systemd-start[15556]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+May 02 15:44:08 hybridfile mysql-systemd-start[15556]: Once the problem is resolved, restart the service.
+May 02 15:44:08 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+May 02 15:44:08 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+May 02 15:44:08 hybridfile systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+May 02 15:44:09 hybridfile systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+May 02 15:44:09 hybridfile systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+May 02 15:44:09 hybridfile systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+May 02 15:44:09 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Start request repeated too quickly.[0m
+May 02 15:44:09 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+May 02 15:44:09 hybridfile systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+May 02 15:44:10 hybridfile sshd[15420]: Failed password for invalid user demo from 109.68.113.222 port 52146 ssh2
+May 02 15:44:11 hybridfile sshd[15420]: Connection closed by invalid user demo 109.68.113.222 port 52146 [preauth]
+May 02 15:44:18 hybridfile sshd[15584]: Invalid user demo from 109.68.113.222 port 52556
+May 02 15:44:18 hybridfile sshd[15584]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:44:18 hybridfile sshd[15584]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:44:20 hybridfile sshd[15584]: Failed password for invalid user demo from 109.68.113.222 port 52556 ssh2
+May 02 15:44:20 hybridfile sshd[15584]: Connection closed by invalid user demo 109.68.113.222 port 52556 [preauth]
+May 02 15:44:27 hybridfile sshd[15588]: Invalid user demo from 109.68.113.222 port 52812
+May 02 15:44:27 hybridfile sshd[15588]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:44:27 hybridfile sshd[15588]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:44:29 hybridfile sshd[15588]: Failed password for invalid user demo from 109.68.113.222 port 52812 ssh2
+May 02 15:44:30 hybridfile sshd[15588]: Connection closed by invalid user demo 109.68.113.222 port 52812 [preauth]
+May 02 15:44:36 hybridfile sshd[15590]: Invalid user demo from 109.68.113.222 port 53064
+May 02 15:44:37 hybridfile sshd[15590]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:44:37 hybridfile sshd[15590]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:44:39 hybridfile sshd[15590]: Failed password for invalid user demo from 109.68.113.222 port 53064 ssh2
+May 02 15:44:39 hybridfile sshd[15590]: Connection closed by invalid user demo 109.68.113.222 port 53064 [preauth]
+May 02 15:44:55 hybridfile sshd[15596]: Invalid user telecomadmin from 109.68.113.222 port 53526
+May 02 15:44:56 hybridfile sshd[15596]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:44:56 hybridfile sshd[15596]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:44:57 hybridfile sshd[15596]: Failed password for invalid user telecomadmin from 109.68.113.222 port 53526 ssh2
+May 02 15:44:58 hybridfile sshd[15596]: Connection closed by invalid user telecomadmin 109.68.113.222 port 53526 [preauth]
+May 02 15:45:09 hybridfile sshd[15600]: Invalid user telecomadmin from 109.68.113.222 port 53787
+May 02 15:45:09 hybridfile sshd[15600]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:45:09 hybridfile sshd[15600]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:45:11 hybridfile sshd[15600]: Failed password for invalid user telecomadmin from 109.68.113.222 port 53787 ssh2
+May 02 15:45:12 hybridfile sshd[15600]: Connection closed by invalid user telecomadmin 109.68.113.222 port 53787 [preauth]
+May 02 15:45:19 hybridfile sshd[15602]: Invalid user telecomadmin from 109.68.113.222 port 54019
+May 02 15:45:20 hybridfile sshd[15602]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:45:20 hybridfile sshd[15602]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:45:20 hybridfile polkitd(authority=local)[1079]: [0;1;39m[0;1;31m[0;1;39mRegistered Authentication Agent for unix-process:15604:1167053 (system bus name :1.539 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale C.UTF-8)[0m
+May 02 15:45:21 hybridfile sshd[15598]: Invalid user profile1 from 200.8.99.193 port 61374
+May 02 15:45:22 hybridfile sshd[15602]: Failed password for invalid user telecomadmin from 109.68.113.222 port 54019 ssh2
+May 02 15:45:22 hybridfile sshd[15598]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:45:22 hybridfile sshd[15598]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=200.8.99.193[0m
+May 02 15:45:22 hybridfile sshd[15602]: Connection closed by invalid user telecomadmin 109.68.113.222 port 54019 [preauth]
+May 02 15:45:24 hybridfile sshd[15598]: Failed password for invalid user profile1 from 200.8.99.193 port 61374 ssh2
+May 02 15:45:29 hybridfile sshd[15615]: Invalid user telecomadmin from 109.68.113.222 port 54285
+May 02 15:45:29 hybridfile sshd[15615]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:45:29 hybridfile sshd[15615]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:45:31 hybridfile sshd[15615]: Failed password for invalid user telecomadmin from 109.68.113.222 port 54285 ssh2
+May 02 15:45:31 hybridfile sshd[15615]: Connection closed by invalid user telecomadmin 109.68.113.222 port 54285 [preauth]
+May 02 15:45:31 hybridfile polkitd(authority=local)[1079]: [0;1;39m[0;1;31m[0;1;39mOperator of unix-process:15604:1167053 successfully authenticated as unix-user:shreyas to gain ONE-SHOT authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.540 [systemctl start mysql.service] (owned by unix-user:shreyas)[0m
+May 02 15:45:31 hybridfile systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+May 02 15:45:32 hybridfile sshd[15598]: Connection closed by invalid user profile1 200.8.99.193 port 61374 [preauth]
+May 02 15:45:32 hybridfile mysql-systemd-start[15619]: my_print_defaults: [ERROR] Found option without preceding group in config file /etc/mysql/my.cnf at line 23!
+May 02 15:45:32 hybridfile mysql-systemd-start[15619]: my_print_defaults: [ERROR] Fatal error in defaults handling. Program aborted!
+May 02 15:45:32 hybridfile mysql-systemd-start[15619]: ERROR: Unable to start MySQL server:
+May 02 15:45:32 hybridfile mysql-systemd-start[15619]: mysqld: [ERROR] Found option without preceding group in config file /etc/mysql/my.cnf at line 23!
+May 02 15:45:32 hybridfile mysql-systemd-start[15619]: mysqld: [ERROR] Fatal error in defaults handling. Program aborted!
+May 02 15:45:32 hybridfile mysql-systemd-start[15619]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+May 02 15:45:32 hybridfile mysql-systemd-start[15619]: Once the problem is resolved, restart the service.
+May 02 15:45:32 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+May 02 15:45:32 hybridfile polkitd(authority=local)[1079]: [0;1;39m[0;1;31m[0;1;39mUnregistered Authentication Agent for unix-process:15604:1167053 (system bus name :1.539, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale C.UTF-8) (disconnected from bus)[0m
+May 02 15:45:32 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+May 02 15:45:32 hybridfile systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+May 02 15:45:32 hybridfile systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+May 02 15:45:32 hybridfile systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+May 02 15:45:32 hybridfile systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+May 02 15:45:32 hybridfile systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+May 02 15:45:32 hybridfile mysql-systemd-start[15647]: my_print_defaults: [ERROR] Found option without preceding group in config file /etc/mysql/my.cnf at line 23!
+May 02 15:45:32 hybridfile mysql-systemd-start[15647]: my_print_defaults: [ERROR] Fatal error in defaults handling. Program aborted!
+May 02 15:45:32 hybridfile mysql-systemd-start[15647]: ERROR: Unable to start MySQL server:
+May 02 15:45:32 hybridfile mysql-systemd-start[15647]: mysqld: [ERROR] Found option without preceding group in config file /etc/mysql/my.cnf at line 23!
+May 02 15:45:32 hybridfile mysql-systemd-start[15647]: mysqld: [ERROR] Fatal error in defaults handling. Program aborted!
+May 02 15:45:32 hybridfile mysql-systemd-start[15647]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+May 02 15:45:32 hybridfile mysql-systemd-start[15647]: Once the problem is resolved, restart the service.
+May 02 15:45:32 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+May 02 15:45:32 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+May 02 15:45:32 hybridfile systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+May 02 15:45:32 hybridfile systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+May 02 15:45:32 hybridfile systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+May 02 15:45:32 hybridfile systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+May 02 15:45:32 hybridfile systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+May 02 15:45:32 hybridfile mysql-systemd-start[15675]: my_print_defaults: [ERROR] Found option without preceding group in config file /etc/mysql/my.cnf at line 23!
+May 02 15:45:32 hybridfile mysql-systemd-start[15675]: my_print_defaults: [ERROR] Fatal error in defaults handling. Program aborted!
+May 02 15:45:32 hybridfile mysql-systemd-start[15675]: ERROR: Unable to start MySQL server:
+May 02 15:45:32 hybridfile mysql-systemd-start[15675]: mysqld: [ERROR] Found option without preceding group in config file /etc/mysql/my.cnf at line 23!
+May 02 15:45:32 hybridfile mysql-systemd-start[15675]: mysqld: [ERROR] Fatal error in defaults handling. Program aborted!
+May 02 15:45:32 hybridfile mysql-systemd-start[15675]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+May 02 15:45:32 hybridfile mysql-systemd-start[15675]: Once the problem is resolved, restart the service.
+May 02 15:45:32 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+May 02 15:45:32 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+May 02 15:45:32 hybridfile systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+May 02 15:45:32 hybridfile systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+May 02 15:45:32 hybridfile systemd[1]: mysql.service: Scheduled restart job, restart counter is at 3.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+May 02 15:45:32 hybridfile systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+May 02 15:45:32 hybridfile systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+May 02 15:45:32 hybridfile mysql-systemd-start[15703]: my_print_defaults: [ERROR] Found option without preceding group in config file /etc/mysql/my.cnf at line 23!
+May 02 15:45:32 hybridfile mysql-systemd-start[15703]: my_print_defaults: [ERROR] Fatal error in defaults handling. Program aborted!
+May 02 15:45:32 hybridfile mysql-systemd-start[15703]: ERROR: Unable to start MySQL server:
+May 02 15:45:32 hybridfile mysql-systemd-start[15703]: mysqld: [ERROR] Found option without preceding group in config file /etc/mysql/my.cnf at line 23!
+May 02 15:45:32 hybridfile mysql-systemd-start[15703]: mysqld: [ERROR] Fatal error in defaults handling. Program aborted!
+May 02 15:45:32 hybridfile mysql-systemd-start[15703]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+May 02 15:45:32 hybridfile mysql-systemd-start[15703]: Once the problem is resolved, restart the service.
+May 02 15:45:32 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+May 02 15:45:32 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+May 02 15:45:32 hybridfile systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+May 02 15:45:33 hybridfile systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+May 02 15:45:33 hybridfile systemd[1]: mysql.service: Scheduled restart job, restart counter is at 4.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+May 02 15:45:33 hybridfile systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+May 02 15:45:33 hybridfile systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+May 02 15:45:33 hybridfile mysql-systemd-start[15731]: my_print_defaults: [ERROR] Found option without preceding group in config file /etc/mysql/my.cnf at line 23!
+May 02 15:45:33 hybridfile mysql-systemd-start[15731]: my_print_defaults: [ERROR] Fatal error in defaults handling. Program aborted!
+May 02 15:45:33 hybridfile mysql-systemd-start[15731]: ERROR: Unable to start MySQL server:
+May 02 15:45:33 hybridfile mysql-systemd-start[15731]: mysqld: [ERROR] Found option without preceding group in config file /etc/mysql/my.cnf at line 23!
+May 02 15:45:33 hybridfile mysql-systemd-start[15731]: mysqld: [ERROR] Fatal error in defaults handling. Program aborted!
+May 02 15:45:33 hybridfile mysql-systemd-start[15731]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+May 02 15:45:33 hybridfile mysql-systemd-start[15731]: Once the problem is resolved, restart the service.
+May 02 15:45:33 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+May 02 15:45:33 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+May 02 15:45:33 hybridfile systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+May 02 15:45:33 hybridfile systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+May 02 15:45:33 hybridfile systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+May 02 15:45:33 hybridfile systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+May 02 15:45:33 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Start request repeated too quickly.[0m
+May 02 15:45:33 hybridfile systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+May 02 15:45:33 hybridfile systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+May 02 15:45:39 hybridfile sshd[15749]: Invalid user telecomadmin from 109.68.113.222 port 54503
+May 02 15:45:39 hybridfile sshd[15749]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): check pass; user unknown[0m
+May 02 15:45:39 hybridfile sshd[15749]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.68.113.222[0m
+May 02 15:45:41 hybridfile sshd[15749]: Failed password for invalid user telecomadmin from 109.68.113.222 port 54503 ssh2
+May 02 15:45:41 hybridfile sshd[15749]: Connection closed by invalid user telecomadmin 109.68.113.222 port 54503 [preauth]

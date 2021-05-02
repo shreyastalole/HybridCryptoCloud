@@ -14,13 +14,13 @@ import time
 import shutil
 
 app = Flask(__name__)
-
+app.secret_key='secret123'
 
 # Config MySQL
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = ''
-app.config['MYSQL_DB'] = 'flask_api'
+app.config['MYSQL_PASSWORD'] = 'Abcd@123'
+app.config['MYSQL_DB'] = 'cc_proj'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 # init MYSQL
 mysql = MySQL(app)
@@ -282,9 +282,9 @@ def decrypt_file(id):
             filename =data['filename']
             cur.close()
             path = os.path.join(os.getcwd(),'Storage',session['username'],filename)
-            os.mkdir(path+'\\temp')
-            os.mkdir(path+'\\temp\Segments')
-            os.mkdir(path+'\\temp\Infos')
+            os.mkdir(path+'/temp')
+            os.mkdir(path+'/temp/Segments')
+            os.mkdir(path+'/temp/Infos')
             DecryptMessage(key,path,filename)
             
             return_files_data(filename)
@@ -390,5 +390,6 @@ def EncryptInput(path,filename):
 
 
 if __name__ == '__main__':
-    app.secret_key='secret123'
+    #app.secret_key='secret123'
+    app.config['SESSION_TYPE'] = 'filesystem'	
     app.run(debug=True)
